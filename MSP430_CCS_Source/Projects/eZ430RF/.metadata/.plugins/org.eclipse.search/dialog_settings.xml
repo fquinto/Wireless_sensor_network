@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="DialogBounds_SearchDialog">
+		<item key="DIALOG_X_ORIGIN" value="607"/>
+		<item key="DIALOG_FONT_NAME" value="1|Tahoma|8|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma"/>
+		<item key="DIALOG_HEIGHT" value="382"/>
+		<item key="DIALOG_Y_ORIGIN" value="260"/>
+		<item key="DIALOG_WIDTH" value="475"/>
+	</section>
+	<section name="SearchDialog.ScopePart">
+		<item key="scope" value="0"/>
+	</section>
+	<section name="Search">
+		<list key="Search.enabledPageIds">
+			<item value="org.eclipse.search.internal.ui.text.TextSearchPage"/>
+		</list>
+		<list key="Search.processedPageIds">
+			<item value="org.eclipse.search.internal.ui.text.TextSearchPage"/>
+		</list>
+	</section>
+	<section name="TextSearchPage">
+		<item key="HISTORY_SIZE" value="12"/>
+		<item key="SEARCH_DERIVED" value="false"/>
+		<item key="CASE_SENSITIVE" value="false"/>
+		<item key="REG_EX_SEARCH" value="false"/>
+		<section name="HISTORY4">
+			<item key="isRegExSearch" value="false"/>
+			<item key="scope" value="0"/>
+			<item key="ignoreCase" value="false"/>
+			<item key="textPattern" value="data_mode"/>
+			<list key="workingSets">
+			</list>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+		</section>
+		<section name="HISTORY9">
+			<item key="isRegExSearch" value="false"/>
+			<item key="scope" value="0"/>
+			<item key="ignoreCase" value="false"/>
+			<item key="textPattern" value="transmitData"/>
+			<list key="workingSets">
+			</list>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+		</section>
+		<section name="HISTORY0">
+			<item key="isRegExSearch" value="false"/>
+			<item key="scope" value="0"/>
+			<item key="ignoreCase" value="false"/>
+			<item key="textPattern" value="BSP_TURN_OFF_LED1"/>
+			<list key="workingSets">
+			</list>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+		</section>
+		<section name="HISTORY10">
+			<item key="isRegExSearch" value="false"/>
+			<item key="scope" value="0"/>
+			<item key="ignoreCase" value="false"/>
+			<item key="textPattern" value="TXString"/>
+			<list key="workingSets">
+			</list>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+		</section>
+		<section name="HISTORY2">
+			<item key="isRegExSearch" value="false"/>
+			<item key="scope" value="0"/>
+			<item key="ignoreCase" value="false"/>
+			<item key="textPattern" value="BSP_TOGGLE_LED1"/>
+			<list key="workingSets">
+			</list>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+		</section>
+		<section name="HISTORY5">
+			<item key="isRegExSearch" value="false"/>
+			<item key="scope" value="0"/>
+			<item key="ignoreCase" value="false"/>
+			<item key="textPattern" value="1000"/>
+			<list key="workingSets">
+			</list>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+		</section>
+		<section name="HISTORY7">
+			<item key="isRegExSearch" value="false"/>
+			<item key="scope" value="0"/>
+			<item key="ignoreCase" value="false"/>
+			<item key="textPattern" value="sNumCurrentPeers"/>
+			<list key="workingSets">
+			</list>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+		</section>
+		<section name="HISTORY3">
+			<item key="isRegExSearch" value="false"/>
+			<item key="scope" value="0"/>
+			<item key="ignoreCase" value="false"/>
+			<item key="textPattern" value="MAX_APP_PAYLOAD"/>
+			<list key="workingSets">
+			</list>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+		</section>
+		<section name="HISTORY6">
+			<item key="isRegExSearch" value="false"/>
+			<item key="scope" value="0"/>
+			<item key="ignoreCase" value="false"/>
+			<item key="textPattern" value="temp"/>
+			<list key="workingSets">
+			</list>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+		</section>
+		<section name="HISTORY1">
+			<item key="isRegExSearch" value="false"/>
+			<item key="scope" value="0"/>
+			<item key="ignoreCase" value="false"/>
+			<item key="textPattern" value="bsp_leds.h"/>
+			<list key="workingSets">
+			</list>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+		</section>
+		<section name="HISTORY11">
+			<item key="isRegExSearch" value="false"/>
+			<item key="scope" value="0"/>
+			<item key="ignoreCase" value="false"/>
+			<item key="textPattern" value="transmitDataString"/>
+			<list key="workingSets">
+			</list>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+		</section>
+		<section name="HISTORY8">
+			<item key="isRegExSearch" value="false"/>
+			<item key="scope" value="0"/>
+			<item key="ignoreCase" value="false"/>
+			<item key="textPattern" value="UCA0RXIE"/>
+			<list key="workingSets">
+			</list>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.cdt.ui.pdomSearchViewPage">
+	</section>
+	<section name="org.eclipse.search.text.FileSearchResultPage">
+	</section>
+</section>

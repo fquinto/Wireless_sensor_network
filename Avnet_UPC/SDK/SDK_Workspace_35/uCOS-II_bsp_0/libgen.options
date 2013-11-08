@@ -1,0 +1,5 @@
+#
+#Fri Jun 15 20:55:10 CEST 2012
+PROCESSOR=microblaze_0
+REPOSITORIES=
+HWSPEC=../hw_platform_0/system.xml

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cHelpSettings>
+<project name="uCOS-II_bsp_0">
+<provider id="org.eclipse.cdt.ui.provider1"/>
+</project>
+<project name="application">
+<provider id="org.eclipse.cdt.ui.provider1"/>
+</project>
+</cHelpSettings>

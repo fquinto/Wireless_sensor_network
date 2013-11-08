@@ -1,0 +1,27 @@
+RewriteEngine on
+
+#Set the base uri
+RewriteBase /serie
+#don't redirect double-underscore dirs (symbolic links)
+
+RewriteCond %{REQUEST_URI} !__
+# prevent loop
+RewriteCond %{REQUEST_URI} !index\.php
+
+#The 'Accept-Language' header starts with 'de'
+#and the test is case-insensitive ([NC])
+RewriteCond %{HTTP:Accept-Language} ^ca [NC]
+#Redirect user to /ca/hauptseite address
+#sending 301 (Moved Permanently) HTTP status code
+#RewriteRule ^$ /de/hauptseite [L,R=301]
+RewriteRule ^$ index.php?lang=ca  [L,QSA]
+
+RewriteCond %{HTTP:Accept-Language} ^es [NC]
+#RewriteRule ^$ /es/pagina-primera [L,R=301]
+RewriteRule  ^$ index.php?lang=es  [L,QSA]
+
+#For every other language (including English :)) use English
+#RewriteRule ^$ /en/main-page [L,R=301]
+RewriteRule ^$ index.php?lang=en  [L,QSA]
+
+RewriteRule ^(en|es|ca)/(.*)$ $2?lang=$1 [QSA,L]

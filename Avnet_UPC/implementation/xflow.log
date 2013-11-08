@@ -1,0 +1,619 @@
+Release 12.3 Xflow M.70d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+xflow.exe -wd implementation -p xc3s400aft256-4 -implement xflow.opt system.ngc 
+ 
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.3/ISE_DS/EDK/spartan3/data/spartan3.acd> with local file
+<C:/Xilinx/12.3/ISE_DS/ISE/spartan3/data/spartan3.acd>
+
+Using Flow File:
+C:/Datos/Proyecto/PlacaSpartan3A/Avnet/Avnet_UPC/implementation/fpga.flw 
+Using Option File(s): 
+ C:/Datos/Proyecto/PlacaSpartan3A/Avnet/Avnet_UPC/implementation/xflow.opt 
+
+Creating Script File ... 
+
+#----------------------------------------------#
+# Starting program ngdbuild
+# ngdbuild -p xc3s400aft256-4 -nt timestamp -bm system.bmm
+"C:/Datos/Proyecto/PlacaSpartan3A/Avnet/Avnet_UPC/implementation/system.ngc" -uc
+system.ucf system.ngd 
+#----------------------------------------------#
+Release 12.3 - ngdbuild M.70d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.3/ISE_DS/EDK/spartan3/data/spartan3.acd> with local file
+<C:/Xilinx/12.3/ISE_DS/ISE/spartan3/data/spartan3.acd>
+
+Command Line: C:\Xilinx\12.3\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -p
+xc3s400aft256-4 -nt timestamp -bm system.bmm
+C:/Datos/Proyecto/PlacaSpartan3A/Avnet/Avnet_UPC/implementation/system.ngc -uc
+system.ucf system.ngd
+
+Reading NGO file
+"C:/Datos/Proyecto/PlacaSpartan3A/Avnet/Avnet_UPC/implementation/system.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "system.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into DCM_SP instance DCM_SP. The following new
+   TNM groups and period specifications were generated at the DCM_SP output(s): 
+   CLKFX: <TIMESPEC TS_clock_generator_0_clock_generator_0_SIG_DCM0_CLKFX =
+   PERIOD "clock_generator_0_clock_generator_0_SIG_DCM0_CLKFX" TS_sys_clk_pin *
+   4.166666667 HIGH 50%>
+
+Done...
+
+Processing BMM file "system.bmm" ...
+
+Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_2Mx16/FLASH_2Mx16/EMC_CTRL_I/MEM_STATE_MACHINE_I/READ_COMPLETE_PIPE_GE
+   N[6].READ_COMPLETE_PIPE' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_2Mx16/FLASH_2Mx16/EMC_CTRL_I/MEM_STEER_I/RDDATA_PATH_MUX_GEN.ASYNC_ADD
+   R_CNT_GEN.RDDATA_EN_GEN_ASYNC[3].RDDATA_EN_REG_ASYNC' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_2Mx16/FLASH_2Mx16/EMC_CTRL_I/MEM_STEER_I/ASYNC_MEM_RDACK_GEN.AALIGN_PI
+   PE_GEN[1].AALIGN_PIPE' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_2Mx16/FLASH_2Mx16/EMC_CTRL_I/ADDR_COUNTER_MUX_I/ADDRESS_STORE_GEN[31].
+   ADDRESS_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_2Mx16/FLASH_2Mx16/EMC_CTRL_I/ADDR_COUNTER_MUX_I/ADDRESS_STORE_GEN[30].
+   ADDRESS_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_2Mx16/FLASH_2Mx16/MCH_PLB_IPIF_I/INCLUDE_PLB_IPIF_GEN.PLBV46_SLAVE_BUR
+   ST_I/I_SLAVE_ATTACHMENT/I_STEER_ADDRESS_COUNTER/GEN_FOR_SHARED.GEN_S_H_SIZE_R
+   EG[0].I_SIZE_S_H_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_2Mx16/FLASH_2Mx16/MCH_PLB_IPIF_I/INCLUDE_PLB_IPIF_GEN.PLBV46_SLAVE_BUR
+   ST_I/I_SLAVE_ATTACHMENT/I_BUS_ADDRESS_COUNTER/GEN_FOR_SHARED.GEN_S_H_SIZE_REG
+   [0].I_SIZE_S_H_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_2Mx16/FLASH_2Mx16/MCH_PLB_IPIF_I/INCLUDE_PLB_IPIF_GEN.PLBV46_SLAVE_BUR
+   ST_I/I_SLAVE_ATTACHMENT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0t
+   o3[3].I_FDRSE_BE0to3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_2Mx16/FLASH_2Mx16/MCH_PLB_IPIF_I/INCLUDE_PLB_IPIF_GEN.PLBV46_SLAVE_BUR
+   ST_I/I_SLAVE_ATTACHMENT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0t
+   o3[2].I_FDRSE_BE0to3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_2Mx16/FLASH_2Mx16/MCH_PLB_IPIF_I/INCLUDE_PLB_IPIF_GEN.PLBV46_SLAVE_BUR
+   ST_I/I_SLAVE_ATTACHMENT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0t
+   o3[1].I_FDRSE_BE0to3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_2Mx16/FLASH_2Mx16/MCH_PLB_IPIF_I/INCLUDE_PLB_IPIF_GEN.PLBV46_SLAVE_BUR
+   ST_I/I_SLAVE_ATTACHMENT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0t
+   o3[0].I_FDRSE_BE0to3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_2Mx16/FLASH_2Mx16/MCH_PLB_IPIF_I/INCLUDE_PLB_IPIF_GEN.PLBV46_SLAVE_BUR
+   ST_I/I_SLAVE_ATTACHMENT/I_BURST_SUPPORT/CONTROL_DBEAT_CNTR_I/STRUCTURAL_A_GEN
+   .I_ADDSUB_GEN[5].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_2Mx16/FLASH_2Mx16/MCH_PLB_IPIF_I/INCLUDE_PLB_IPIF_GEN.PLBV46_SLAVE_BUR
+   ST_I/I_SLAVE_ATTACHMENT/I_BURST_SUPPORT/RESPONSE_DBEAT_CNTR_I/STRUCTURAL_A_GE
+   N.I_ADDSUB_GEN[5].FDRE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_2Mx16/FLASH_2Mx16/MCH_PLB_IPIF_I/INCLUDE_PLB_IPIF_GEN.PLBV46_SLAVE_BUR
+   ST_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_CE_FOR_SHARED.GEN_BKEND_CE_REGISTERS[0]
+   .I_BKEND_RDCE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'FLASH_2Mx16/FLASH_2Mx16/MCH_PLB_IPIF_I/INCLUDE_PLB_IPIF_GEN.PLBV46_SLAVE_BUR
+   ST_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_CE_FOR_SHARED.GEN_BKEND_CE_REGISTERS[0]
+   .I_BKEND_WRCE_REG' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[20].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[19].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[18].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[17].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[16].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[15].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[14].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[13].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[12].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[11].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[10].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[9].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[8].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[7].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[6].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[5].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[4].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[3].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[2].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[1].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[0].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[20].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[19].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[18].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[17].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[16].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[15].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[14].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[13].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[12].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[11].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[10].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[9].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[8].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[7].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[6].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[5].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[4].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[3].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[2].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[1].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[0].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:478 - clock net mdm_0/bscan_drck1 with clock driver
+   mdm_0/mdm_0/BUFG_DRCK1 drives no clock pins
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  58
+
+Writing NGD file "system.ngd" ...
+Total REAL time to NGDBUILD completion:  6 sec
+Total CPU time to NGDBUILD completion:   6 sec
+
+Writing NGDBUILD log file "system.bld"...
+
+NGDBUILD done.
+
+
+
+#----------------------------------------------#
+# Starting program map
+# map -o system_map.ncd -pr b -ol high -timing -detail system.ngd system.pcf 
+#----------------------------------------------#
+Release 12.3 - Map M.70d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.3/ISE_DS/EDK/data/Xdh_PrimTypeLib.xda> with local file
+<C:/Xilinx/12.3/ISE_DS/ISE/data/Xdh_PrimTypeLib.xda>
+Using target part "3s400aft256-4".
+Mapping design into LUTs...
+Writing file system_map.ngm...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 14 secs 
+Total CPU  time at the beginning of Placer: 11 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:64461ca0) REAL time: 16 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:64461ca0) REAL time: 16 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:c42df840) REAL time: 16 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+
+Phase 4.2  Initial Clock and IO Placement (Checksum:3cbfab63) REAL time: 24 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:3cbfab63) REAL time: 24 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:3cbfab63) REAL time: 24 secs 
+
+Phase 7.8  Global Placement
+...................
+...........................................................
+...
+........................................................
+................
+................
+................
+.................
+Phase 7.8  Global Placement (Checksum:6f5129fe) REAL time: 44 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:6f5129fe) REAL time: 44 secs 
+
+Phase 9.18  Placement Optimization
+Phase 9.18  Placement Optimization (Checksum:f3e30fe2) REAL time: 1 mins 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:f3e30fe2) REAL time: 1 mins 1 secs 
+
+Total REAL time to Placer completion: 1 mins 1 secs 
+Total CPU  time to Placer completion: 57 secs 
+Running post-placement packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:  144
+Logic Utilization:
+  Number of Slice Flip Flops:         2,702 out of   7,168   37%
+  Number of 4 input LUTs:             3,883 out of   7,168   54%
+Logic Distribution:
+  Number of occupied Slices:          2,810 out of   3,584   78%
+    Number of Slices containing only related logic:   2,810 out of   2,810 100%
+    Number of Slices containing unrelated logic:          0 out of   2,810   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       3,953 out of   7,168   55%
+    Number used as logic:             3,351
+    Number used as a route-thru:         70
+    Number used for Dual Port RAMs:     256
+      (Two LUTs used per Dual Port RAM)
+    Number used as Shift registers:     276
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 57 out of     195   29%
+    IOB Flip Flops:                      82
+  Number of BUFGMUXs:                     3 out of      24   12%
+  Number of DCMs:                         1 out of       4   25%
+  Number of BSCANs:                       1 out of       1  100%
+  Number of BSCAN_SPARTAN3As:             1 out of       1  100%
+  Number of MULT18X18SIOs:                3 out of      20   15%
+  Number of RAMB16BWEs:                  18 out of      20   90%
+
+Average Fanout of Non-Clock Nets:                3.57
+
+Peak Memory Usage:  244 MB
+Total REAL time to MAP completion:  1 mins 4 secs 
+Total CPU time to MAP completion:   1 mins 1 secs 
+
+Mapping completed.
+See MAP report file "system_map.mrp" for details.
+
+
+
+#----------------------------------------------#
+# Starting program par
+# par -w -ol high system_map.ncd system.ncd system.pcf 
+#----------------------------------------------#
+Release 12.3 - par M.70d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/12.3/ISE_DS/EDK/data/parBmgr.acd> with local file
+<C:/Xilinx/12.3/ISE_DS/ISE/data/parBmgr.acd>
+
+
+
+Constraints file: system.pcf.
+Loading device for application Rf_Device from file '3s400a.nph' in environment
+C:\Xilinx\12.3\ISE_DS\ISE\;C:\Xilinx\12.3\ISE_DS\EDK.
+   "system" is an NCD, version 3.2, device xc3s400a, package ft256, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.41 2010-09-15".
+
+
+
+Design Summary Report:
+
+ Number of External IOBs                          57 out of 195    29%
+
+   Number of External Input IOBs                  7
+
+      Number of External Input IBUFs              7
+        Number of LOCed External Input IBUFs      7 out of 7     100%
+
+
+   Number of External Output IOBs                28
+
+      Number of External Output IOBs             28
+        Number of LOCed External Output IOBs     28 out of 28    100%
+
+
+   Number of External Bidir IOBs                 22
+
+      Number of External Bidir IOBs              22
+        Number of LOCed External Bidir IOBs      22 out of 22    100%
+
+
+   Number of BSCANs                          1 out of 1     100%
+   Number of BUFGMUXs                        3 out of 24     12%
+   Number of DCMs                            1 out of 4      25%
+   Number of MULT18X18SIOs                   3 out of 20     15%
+   Number of RAMB16BWEs                     18 out of 20     90%
+   Number of Slices                       2810 out of 3584   78%
+      Number of SLICEMs                    283 out of 1792   15%
+
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 12 secs 
+Finished initial Timing Analysis.  REAL time: 12 secs 
+
+Starting Router
+
+
+Phase  1  : 22093 unrouted;      REAL time: 17 secs 
+
+Phase  2  : 19128 unrouted;      REAL time: 17 secs 
+
+Phase  3  : 6347 unrouted;      REAL time: 21 secs 
+
+Phase  4  : 6364 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 22 secs 
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 30 secs 
+
+Updating file: system.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 33 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 33 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 35 secs 
+WARNING:Route:455 - CLK Net:mdm_0/Dbg_Update_1 may have excessive skew because 
+      10 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:fpga_0_clk_1_sys_clk_pin_IBUFG may have excessive skew because 
+      1 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 35 secs 
+Total CPU time to Router completion: 35 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|      clk_66_6667MHz | BUFGMUX_X1Y10| No   | 2287 |  0.234     |  1.207      |
++---------------------+--------------+------+------+------------+-------------+
+|     mdm_0/Dbg_Clk_1 |  BUFGMUX_X1Y0| No   |  154 |  0.064     |  1.038      |
++---------------------+--------------+------+------+------------+-------------+
+|xps_timer_0_Interrup |              |      |      |            |             |
+|                   t |         Local|      |    1 |  0.000     |  1.447      |
++---------------------+--------------+------+------+------------+-------------+
+|  mdm_0/Dbg_Update_1 |         Local|      |   35 |  1.340     |  3.591      |
++---------------------+--------------+------+------+------------+-------------+
+|fpga_0_clk_1_sys_clk |              |      |      |            |             |
+|          _pin_IBUFG |         Local|      |    5 |  0.025     |  2.351      |
++---------------------+--------------+------+------+------------+-------------+
+|MSP430_UART_Interrup |              |      |      |            |             |
+|                   t |         Local|      |    1 |  0.000     |  0.970      |
++---------------------+--------------+------+------+------------+-------------+
+|  USB_UART_Interrupt |         Local|      |    1 |  0.000     |  1.659      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     0.087ns|    14.912ns|       0|           0
+  G_DCM0_CLKFX = PERIOD TIMEGRP         "cl | HOLD        |     0.581ns|            |       0|           0
+  ock_generator_0_clock_generator_0_SIG_DCM |             |            |            |        |            
+  0_CLKFX" TS_sys_clk_pin *         4.16666 |             |            |            |        |            
+  667 HIGH 50%                              |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | SETUP       |    60.843ns|     1.657ns|       0|           0
+  pin" 16 MHz HIGH 50%                      | HOLD        |     0.815ns|            |       0|           0
+                                            | MINLOWPULSE |    42.500ns|    20.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_sys_clk_pin
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_pin                 |     62.500ns|     20.000ns|     62.133ns|            0|            0|            3|       237041|
+| TS_clock_generator_0_clock_gen|     15.000ns|     14.912ns|          N/A|            0|            0|       237041|            0|
+| erator_0_SIG_DCM0_CLKFX       |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 38 secs 
+Total CPU time to PAR completion: 36 secs 
+
+Peak Memory Usage:  220 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 2
+Number of info messages: 0
+
+Writing design to file system.ncd
+
+
+
+PAR done!
+
+
+
+#----------------------------------------------#
+# Starting program post_par_trce
+# trce -e 3 -xml system.twx system.ncd system.pcf 
+#----------------------------------------------#
+Release 12.3 - Trace  (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.3/ISE_DS/EDK/spartan3a/data/spartan3a.acd> with local file
+<C:/Xilinx/12.3/ISE_DS/ISE/spartan3a/data/spartan3a.acd>
+Loading device for application Rf_Device from file '3s400a.nph' in environment
+C:\Xilinx\12.3\ISE_DS\ISE\;C:\Xilinx\12.3\ISE_DS\EDK.
+   "system" is an NCD, version 3.2, device xc3s400a, package ft256, speed -4
+--------------------------------------------------------------------------------
+Release 12.3 Trace  (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\12.3\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -e 3 -xml system.twx
+system.ncd system.pcf
+
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,speed:             xc3s400a,-4 (PRODUCTION 1.41 2010-09-15)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on a
+   50 Ohm transmission line loading model.  For the details of this model, and
+   for more information on accounting for different loading conditions, please
+   see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and
+   'Phase Error' calculations, these terms will be zero in the Clock Uncertainty
+   calculation.  Please make appropriate modification to SYSTEM_JITTER to
+   account for the unsupported Discrete Jitter and Phase Error.
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0 (Setup/Max: 0, Hold: 0)
+
+Constraints cover 237044 paths, 0 nets, and 20320 connections
+
+Design statistics:
+   Minimum period:  20.000ns (Maximum frequency:  50.000MHz)
+
+
+Analysis completed Sun Sep 16 20:56:05 2012
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Number of info messages: 4
+Total time: 8 secs 
+
+

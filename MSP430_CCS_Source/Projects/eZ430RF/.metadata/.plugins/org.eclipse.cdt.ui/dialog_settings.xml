@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="com.ti.ccstudio.managedbuild.ui.wizards.project.CCEProjectPropertiesPage.PROJECT_TYPE" value="com.ti.ccstudio.buildDefinitions.MSP430.ProjectType"/>
+	<section name="com.ti.common.project.ui.wizards.ProjectSettingsPage">
+		<item key="CCE.CODEGEN_TOOL_VERSION" value=""/>
+		<item key="CCE.OUTPUT_FORMAT" value=""/>
+		<item key="CCE.LINKER_COMMAND_FILE" value="null"/>
+		<item key="CCE.RUNTIME_SUPPORT_LIB" value="null"/>
+		<item key="CCE.DEVICE_ENDIANNESS" value=""/>
+		<item key="OUTPUT_TYPE" value="executable"/>
+		<item key="CCE.DEVICE_VARIANT" value="MSP430C412"/>
+	</section>
+	<section name="outline_presenter_bounds">
+	</section>
+	<section name="com.ti.common.project.ui.wizards.ProjectTemplatesPage">
+	</section>
+	<section name="com.ti.common.managedbuild.ui.wizards.project.ProjectPropertiesPage">
+		<item key="CCE.ASSEMBLY_ONLY" value="false"/>
+		<item key="CCE.CODEGEN_TOOL_VERSION" value="3.2.1"/>
+		<item key="CCE.OUTPUT_FORMAT" value="Coff"/>
+		<item key="CCE.LINKER_COMMAND_FILE" value="lnk_msp430f2274.cmd"/>
+		<item key="CCE.RUNTIME_SUPPORT_LIB" value="&lt;automatic&gt;"/>
+		<item key="PROJECT_KIND" value="com.ti.ccstudio.managedbuild.core.ProjectKind_Executable"/>
+		<item key="CCE.DEVICE_ENDIANNESS" value="little"/>
+		<item key="CCE.DEVICE_VARIANT" value="MSP430F2274"/>
+	</section>
+	<section name="!CProjectWizard!">
+	</section>
+</section>

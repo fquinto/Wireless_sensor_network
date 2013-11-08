@@ -1,0 +1,827 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/13/UPC_PFC/Trunk/web/pChart2.1.2/examples
+END
+example.barcode.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.barcode.php
+END
+example.drawBarChart.borders.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawBarChart.borders.php
+END
+example.drawStepChart.simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawStepChart.simple.php
+END
+example.drawStackedBarChart.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawStackedBarChart.php
+END
+example.drawLine.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawLine.php
+END
+example.drawPolygon.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawPolygon.php
+END
+example.drawScatterScale.manual.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawScatterScale.manual.php
+END
+example.spring.complex.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.spring.complex.php
+END
+example.drawFilledSplineChart.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawFilledSplineChart.php
+END
+example.drawThreshold.labels.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawThreshold.labels.php
+END
+example.drawStockChart.simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawStockChart.simple.php
+END
+example.drawStepChart.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawStepChart.php
+END
+example.drawStandardDeviation.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawStandardDeviation.php
+END
+example.draw3DPie.transparent.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.draw3DPie.transparent.php
+END
+example.drawStockChart.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawStockChart.php
+END
+example.drawAntialiasPixel.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawAntialiasPixel.php
+END
+example.barcode128.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.barcode128.php
+END
+example.drawBarChart.simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawBarChart.simple.php
+END
+example.drawBarChart.palette.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawBarChart.palette.php
+END
+example.text.alignment.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.text.alignment.php
+END
+example.drawStackedBarChart.rounded.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawStackedBarChart.rounded.php
+END
+example.drawAreaChart.threshold.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawAreaChart.threshold.php
+END
+example.spring.labels.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.spring.labels.php
+END
+example.drawSurface.palette.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawSurface.palette.php
+END
+example.writeBounds.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.writeBounds.php
+END
+example.drawPlotChart.simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawPlotChart.simple.php
+END
+example.drawFromGIF.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawFromGIF.php
+END
+example.drawContour.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawContour.php
+END
+example.drawDerivative.simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawDerivative.simple.php
+END
+example.addRandomValues.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.addRandomValues.php
+END
+example.drawStackedAreaChart.normalized.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawStackedAreaChart.normalized.php
+END
+example.polar.values.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.polar.values.php
+END
+example.drawCircle.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawCircle.php
+END
+example.drawHarmonicMean.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawHarmonicMean.php
+END
+example.drawLineChart.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawLineChart.php
+END
+example.radar.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.radar.php
+END
+example.drawFilledStepChart.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawFilledStepChart.php
+END
+example.Combo.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.Combo.php
+END
+example.setFontProperties.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.setFontProperties.php
+END
+example.drawScatterLineChart.trigo.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawScatterLineChart.trigo.php
+END
+example.normalize.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.normalize.php
+END
+example.cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.cache.php
+END
+example.drawGradientArea.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawGradientArea.php
+END
+example.drawBarChart.can.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawBarChart.can.php
+END
+example.drawBarChart.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawBarChart.php
+END
+example.drawSurface.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawSurface.php
+END
+example.drawAreaChart.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawAreaChart.php
+END
+buildAll.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/buildAll.cmd
+END
+example.drawMedian.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawMedian.php
+END
+example.drawScatter.simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawScatter.simple.php
+END
+example.drawScatterLineChart.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawScatterLineChart.php
+END
+example.drawBestfit.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawBestfit.php
+END
+example.drawStackedBarChart.border.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawStackedBarChart.border.php
+END
+example.drawScale.reverse.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawScale.reverse.php
+END
+example.drawFromJPG.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawFromJPG.php
+END
+example.radar.values.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.radar.values.php
+END
+example.drawFilledCircle.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawFilledCircle.php
+END
+example.drawingObjects.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawingObjects.php
+END
+example.drawFilledSplineChart.threshold.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawFilledSplineChart.threshold.php
+END
+example.drawArrow.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawArrow.php
+END
+example.drawPieLegend.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawPieLegend.php
+END
+example.drawAnscombeQuartet.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawAnscombeQuartet.php
+END
+example.drawBarChart.vertical.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawBarChart.vertical.php
+END
+example.singlebarcode39.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.singlebarcode39.php
+END
+example.drawScatterSplineChart.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawScatterSplineChart.php
+END
+example.draw2DPie.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.draw2DPie.php
+END
+example.drawRectangle.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawRectangle.php
+END
+example.draw3DPie.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.draw3DPie.php
+END
+example.draw3DRingValues.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.draw3DRingValues.php
+END
+example.drawLabel.caption.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawLabel.caption.php
+END
+example.drawStackedBarChart.shaded.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawStackedBarChart.shaded.php
+END
+example.split.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.split.php
+END
+example.drawGeometricMean.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawGeometricMean.php
+END
+example.drawStackedBarChart.can.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawStackedBarChart.can.php
+END
+example.draw2DRing.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.draw2DRing.php
+END
+example.drawScale.dates.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawScale.dates.php
+END
+example.drawScale.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawScale.php
+END
+example.drawBarChart.floating.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawBarChart.floating.php
+END
+example.drawBarChart.poll.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawBarChart.poll.php
+END
+example.drawZoneChart.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawZoneChart.php
+END
+example.polar.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.polar.php
+END
+example.drawPlotChart.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawPlotChart.php
+END
+example.transparent.background.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.transparent.background.php
+END
+example.drawScale.color.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawScale.color.php
+END
+example.drawLabel.barchart.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawLabel.barchart.php
+END
+example.drawProgress.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawProgress.php
+END
+example.drawScatter.shape.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawScatter.shape.php
+END
+example.draw2DRingValues.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.draw2DRingValues.php
+END
+example.drawFromPNG.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawFromPNG.php
+END
+example.radar.labels.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.radar.labels.php
+END
+example.drawScatterScale.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawScatterScale.php
+END
+example.drawBarChart.shaded.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawBarChart.shaded.php
+END
+example.drawLabel.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawLabel.php
+END
+example.drawAreaChart.simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawAreaChart.simple.php
+END
+example.drawFilledRectangle.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawFilledRectangle.php
+END
+example.draw3DRing.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.draw3DRing.php
+END
+example.drawScatterPlotChart.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawScatterPlotChart.php
+END
+example.drawSimple.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawSimple.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/index.php
+END
+example.drawLineChart.simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawLineChart.simple.php
+END
+example.drawStockChart.median.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawStockChart.median.php
+END
+example.drawScale.manual.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawScale.manual.php
+END
+example.draw3DPie.labels.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.draw3DPie.labels.php
+END
+example.drawBezier.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawBezier.php
+END
+example.drawLabel.scatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawLabel.scatter.php
+END
+example.spring.relations.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.spring.relations.php
+END
+example.Mixed.classes.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.Mixed.classes.php
+END
+example.drawThresholdArea.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawThresholdArea.php
+END
+example.drawScatterBestFit.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawScatterBestFit.php
+END
+example.drawPlotChart.icon.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawPlotChart.icon.php
+END
+example.drawSpline.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawSpline.php
+END
+example.drawThreshold.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawThreshold.php
+END
+example.barcode39.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.barcode39.php
+END
+example.drawDerivative.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawDerivative.php
+END
+example.draw2DPie.labels.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.draw2DPie.labels.php
+END
+example.drawRoundedFilledRectangle.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawRoundedFilledRectangle.php
+END
+example.pData.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.pData.php
+END
+example.drawSplineChart.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawSplineChart.php
+END
+example.drawSurface.simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawSurface.simple.php
+END
+example.drawScale.multiple.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawScale.multiple.php
+END
+example.setShadow.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.setShadow.php
+END
+example.spring.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.spring.php
+END
+example.drawText.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawText.php
+END
+example.drawRoundedRectangle.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawRoundedRectangle.php
+END
+example.drawLabel.vertical.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawLabel.vertical.php
+END
+example.drawStackedAreaChart.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawStackedAreaChart.php
+END
+example.drawScale.floating.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawScale.floating.php
+END
+example.drawArrowLabel.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawArrowLabel.php
+END
+example.drawLegend.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawLegend.php
+END
+example.basic.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.basic.php
+END
+example.drawSplineChart.simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawSplineChart.simple.php
+END
+example.drawBubbleChart.simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawBubbleChart.simple.php
+END
+example.drawBarChart.spacing.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawBarChart.spacing.php
+END
+example.drawLabel.bubble.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawLabel.bubble.php
+END
+example.drawIndicator.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawIndicator.php
+END
+example.drawBubbleChart.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.drawBubbleChart.php
+END
+example.singlebarcode128.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/examples/example.singlebarcode128.php
+END

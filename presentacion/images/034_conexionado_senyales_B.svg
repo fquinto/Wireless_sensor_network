@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="310.9252"
+   height="214.17233"
+   id="svg3240"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="034_conexionado_senyales_B.svg"
+   inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/034_conexionado_senyales.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs3242">
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4197"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none;marker-end:none"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3166"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3168"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none;marker-end:none"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3170"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3172"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none;marker-end:none"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3174"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3176"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none;marker-end:none"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3178"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3180"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none;marker-end:none"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3182"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3184"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none;marker-end:none"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3186"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3188"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none;marker-end:none"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3190"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3192"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none;marker-end:none"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4.1584764"
+     inkscape:cx="19.827919"
+     inkscape:cy="140.89874"
+     inkscape:current-layer="layer1"
+     id="namedview3244"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1066"
+     inkscape:window-x="1365"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true"
+     inkscape:object-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     units="mm"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata3246">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-413.27874,-300.83815)">
+    <g
+       id="g3068"
+       transform="translate(220.67794,-60.029063)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3052"
+         y="521.82538"
+         x="338.01031"
+         style="font-size:8px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:'04b03 Bold'"
+         xml:space="preserve"><tspan
+           y="521.82538"
+           x="338.01031"
+           id="tspan3054"
+           sodipodi:role="line">PIN 1:  P3.4/UCA0TXD/UCA0SIMO = TxD</tspan><tspan
+           id="tspan3056"
+           y="531.82538"
+           x="338.01031"
+           sodipodi:role="line">PIN 2:  GND</tspan><tspan
+           id="tspan3058"
+           y="541.82538"
+           x="338.01031"
+           sodipodi:role="line">PIN 3:  RST/SBWTDIO (no usado)</tspan><tspan
+           id="tspan3060"
+           y="551.82538"
+           x="338.01031"
+           sodipodi:role="line">PIN 4:  TEST/SBWTCK (no usado)</tspan><tspan
+           id="tspan3062"
+           y="561.82538"
+           x="338.01031"
+           sodipodi:role="line">PIN 5:  VCC (3.6 V)</tspan><tspan
+           id="tspan3064"
+           y="571.82538"
+           x="338.01031"
+           sodipodi:role="line">PIN 6:  P3.5/UCA0RXD/UCA0SOMI = RxD</tspan></text>
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3066"
+         d="m 365.25784,534.85826 14.86175,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:none;stroke:#396a92;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 506.93814,370.81133 -47.39909,85.18778"
+       id="path3942"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 472.61512,361.52386 -0.0259,94.47568"
+       id="path3879"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#396a92;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 524.81643,361.52386 0.32432,84.03105"
+       id="path3059"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ffffff;fill-opacity:0;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 459.56479,361.52386 52.17531,94.47568"
+       id="path3061"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:#5aa02c;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4017-6"
+       width="11.374081"
+       height="11.350829"
+       x="-530.47748"
+       y="-467.35037"
+       transform="scale(-1,-1)" />
+    <rect
+       y="-467.35037"
+       x="-517.42719"
+       height="11.350829"
+       width="11.374081"
+       id="rect4021-4"
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       transform="scale(-1,-1)" />
+    <rect
+       y="-467.35037"
+       x="-504.3768"
+       height="11.350829"
+       width="11.374081"
+       id="rect4025-7"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       transform="scale(-1,-1)" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4029-4"
+       width="11.374081"
+       height="11.350829"
+       x="-491.32648"
+       y="-467.35037"
+       transform="scale(-1,-1)" />
+    <rect
+       y="-467.35037"
+       x="-478.27615"
+       height="11.350829"
+       width="11.374081"
+       id="rect4033-8"
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       transform="scale(-1,-1)" />
+    <rect
+       style="fill:#803300;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4037-5"
+       width="11.374081"
+       height="11.350829"
+       x="-465.22583"
+       y="-467.35037"
+       transform="scale(-1,-1)" />
+    <g
+       id="g3881"
+       transform="matrix(1.6312911,0,0,1.6279563,-286.57161,-251.64175)">
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+         style="fill:#803300;fill-opacity:1;stroke:#000000;stroke-width:0.61363894;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3234"
+         width="6.9724407"
+         height="6.9724412"
+         x="-500.86038"
+         y="-376.64746"
+         transform="scale(-1,-1)" />
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+         y="-376.64746"
+         x="-492.86038"
+         height="6.9724412"
+         width="6.9724407"
+         id="rect3236"
+         style="fill:#5aa02c;fill-opacity:1;stroke:#000000;stroke-width:0.61363894;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         transform="scale(-1,-1)" />
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+         y="-376.64746"
+         x="-484.86038"
+         height="6.9724412"
+         width="6.9724407"
+         id="rect3238"
+         style="fill:none;stroke:#000000;stroke-width:0.61363894;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         transform="scale(-1,-1)" />
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+         style="fill:none;stroke:#000000;stroke-width:0.61363894;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3240"
+         width="6.9724407"
+         height="6.9724412"
+         x="-476.86038"
+         y="-376.64746"
+         transform="scale(-1,-1)" />
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+         y="-376.64746"
+         x="-468.86038"
+         height="6.9724412"
+         width="6.9724407"
+         id="rect3242"
+         style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.61363894;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         transform="scale(-1,-1)" />
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.61363894;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3244"
+         width="6.9724407"
+         height="6.9724412"
+         x="-460.86038"
+         y="-376.64746"
+         transform="scale(-1,-1)" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:13.03698254px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:'04b03 Bold'"
+       x="456.8884"
+       y="477.19464"
+       id="text6059"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="scale(1.0010237,0.99897734)"><tspan
+         sodipodi:role="line"
+         id="tspan6061"
+         x="456.8884"
+         y="477.19464"
+         style="font-size:9.77773666px">1</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path3957"
+       d="m 524.79018,455.99995 -4.4069,-10.49592 9.51498,0.10174 -5.10809,10.39371 z"
+       style="fill:#091d42;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:transform-center-x="-0.35058723"
+       inkscape:transform-center-y="-5.2479583" />
+    <path
+       inkscape:transform-center-y="5.6840001"
+       inkscape:transform-center-x="4.5393248"
+       style="fill:#091d42;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 511.74011,361.52385 -0.52527,11.368 -8.55337,-4.16105 9.07845,-7.20651 z"
+       id="path3959"
+       inkscape:connector-curvature="0" />
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       sodipodi:linespacing="125%"
+       id="text3975"
+       y="346.8248"
+       x="456.4093"
+       style="font-size:13.03698254px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:'04b03 Bold'"
+       xml:space="preserve"
+       transform="scale(1.0010237,0.99897734)"><tspan
+         style="font-size:9.77773666px"
+         y="346.8248"
+         x="456.4093"
+         id="tspan3977"
+         sodipodi:role="line">5</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4021"
+       y="309.09631"
+       x="558.68823"
+       style="font-size:8px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:'04b03 Bold'"
+       xml:space="preserve"><tspan
+         y="309.09631"
+         x="558.68823"
+         id="tspan4023"
+         sodipodi:role="line">PIN 0:  DIGI2_0 = FPGA N1 = TxD</tspan><tspan
+         id="tspan4025"
+         y="319.09631"
+         x="558.68823"
+         sodipodi:role="line">PIN 1:  DIGI2_1 = FPGA M1 = RxD</tspan><tspan
+         id="tspan4027"
+         y="329.09631"
+         x="558.68823"
+         sodipodi:role="line">PIN 2:  DIGI2_2 = FPGA K1 (no usado)</tspan><tspan
+         id="tspan4029"
+         y="339.09631"
+         x="558.68823"
+         sodipodi:role="line">PIN 3:  DIGI2_3 = FPGA G1 (no usado)</tspan><tspan
+         id="tspan4031"
+         y="349.09631"
+         x="558.68823"
+         sodipodi:role="line">PIN 4:  GND</tspan><tspan
+         id="tspan4033"
+         y="359.09631"
+         x="558.68823"
+         sodipodi:role="line">PIN 5:  VCC (3.3 V)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13.03698254px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:'04b03 Bold'"
+       x="434.97461"
+       y="359.66425"
+       id="text4083"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="scale(1.0010237,0.99897734)"><tspan
+         sodipodi:role="line"
+         id="tspan4085"
+         x="434.97461"
+         y="359.66425"
+         style="font-size:9.77773666px">J6</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4111"
+       style="font-size:8px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:'04b03 Bold'"><flowRegion
+         id="flowRegion4113"><rect
+           id="rect4115"
+           width="25.62429"
+           height="69.675041"
+           x="578.41797"
+           y="314.23981" /></flowRegion><flowPara
+         id="flowPara4117" /></flowRoot>    <rect
+       transform="scale(-1,-1)"
+       y="-309.63937"
+       x="-690.79425"
+       height="6.9724412"
+       width="6.9724407"
+       id="rect3234-3"
+       style="fill:#803300;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       transform="scale(-1,-1)"
+       style="fill:#5aa02c;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3236-1"
+       width="6.9724407"
+       height="6.9724412"
+       x="-692.80066"
+       y="-319.9772"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       transform="scale(-1,-1)"
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3242-9"
+       width="6.9724407"
+       height="6.9724412"
+       x="-611.96466"
+       y="-349.79306"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       transform="scale(-1,-1)"
+       y="-359.93378"
+       x="-638.49225"
+       height="6.9724412"
+       width="6.9724407"
+       id="rect3244-1"
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       style="fill:#803300;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3074"
+       width="6.9724407"
+       height="6.9724412"
+       x="-717.89508"
+       y="-462.66626"
+       transform="scale(-1,-1)" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       y="-512.58032"
+       x="-720.14935"
+       height="6.9724412"
+       width="6.9724407"
+       id="rect3076"
+       style="fill:#5aa02c;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       transform="scale(-1,-1)" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       y="-472.57959"
+       x="-611.96185"
+       height="6.9724412"
+       width="6.9724407"
+       id="rect3078"
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       transform="scale(-1,-1)" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3080"
+       width="6.9724407"
+       height="6.9724412"
+       x="-638.51666"
+       y="-503.017"
+       transform="scale(-1,-1)" />
+    <text
+       transform="scale(1.0010237,0.99897734)"
+       xml:space="preserve"
+       style="font-size:13.03698254px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:'04b03 Bold'"
+       x="469.43649"
+       y="346.8248"
+       id="text3051"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan3053"
+         x="469.43649"
+         y="346.8248"
+         style="font-size:9.77773666px">4</tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       sodipodi:linespacing="125%"
+       id="text3055"
+       y="346.8248"
+       x="482.47836"
+       style="font-size:13.03698254px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:'04b03 Bold'"
+       xml:space="preserve"
+       transform="scale(1.0010237,0.99897734)"><tspan
+         style="font-size:9.77773666px"
+         y="346.8248"
+         x="482.47836"
+         id="tspan3057"
+         sodipodi:role="line">3</tspan></text>
+    <text
+       transform="scale(1.0010237,0.99897734)"
+       xml:space="preserve"
+       style="font-size:13.03698254px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:'04b03 Bold'"
+       x="495.51535"
+       y="346.8248"
+       id="text3059"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan3061"
+         x="495.51535"
+         y="346.8248"
+         style="font-size:9.77773666px">2</tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       sodipodi:linespacing="125%"
+       id="text3063"
+       y="346.8248"
+       x="509.03635"
+       style="font-size:13.03698254px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:'04b03 Bold'"
+       xml:space="preserve"
+       transform="scale(1.0010237,0.99897734)"><tspan
+         style="font-size:9.77773666px"
+         y="346.8248"
+         x="509.03635"
+         id="tspan3065"
+         sodipodi:role="line">1</tspan></text>
+    <text
+       transform="scale(1.0010237,0.99897734)"
+       xml:space="preserve"
+       style="font-size:13.03698254px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:'04b03 Bold'"
+       x="521.58441"
+       y="346.8248"
+       id="text3067"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan3069"
+         x="521.58441"
+         y="346.8248"
+         style="font-size:9.77773666px">0</tspan></text>
+    <text
+       transform="scale(1.0010237,0.99897734)"
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       sodipodi:linespacing="125%"
+       id="text3071"
+       y="477.19464"
+       x="469.44138"
+       style="font-size:13.03698254px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:'04b03 Bold'"
+       xml:space="preserve"><tspan
+         style="font-size:9.77773666px"
+         y="477.19464"
+         x="469.44138"
+         id="tspan3073"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13.03698254px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:'04b03 Bold'"
+       x="482.47836"
+       y="477.19464"
+       id="text3075"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="scale(1.0010237,0.99897734)"><tspan
+         sodipodi:role="line"
+         id="tspan3077"
+         x="482.47836"
+         y="477.19464"
+         style="font-size:9.77773666px">3</tspan></text>
+    <text
+       transform="scale(1.0010237,0.99897734)"
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       sodipodi:linespacing="125%"
+       id="text3079"
+       y="477.19464"
+       x="495.51044"
+       style="font-size:13.03698254px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:'04b03 Bold'"
+       xml:space="preserve"><tspan
+         style="font-size:9.77773666px"
+         y="477.19464"
+         x="495.51044"
+         id="tspan3081"
+         sodipodi:role="line">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13.03698254px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:'04b03 Bold'"
+       x="508.55725"
+       y="477.19464"
+       id="text3083"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="scale(1.0010237,0.99897734)"><tspan
+         sodipodi:role="line"
+         id="tspan3085"
+         x="508.55725"
+         y="477.19464"
+         style="font-size:9.77773666px">5</tspan></text>
+    <text
+       transform="scale(1.0010237,0.99897734)"
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/media/DATOS/UPC/Proyecto/imagen/esquema_uart.png"
+       sodipodi:linespacing="125%"
+       id="text3087"
+       y="477.19464"
+       x="521.56"
+       style="font-size:13.03698254px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:'04b03 Bold'"
+       xml:space="preserve"><tspan
+         style="font-size:9.77773666px"
+         y="477.19464"
+         x="521.56"
+         id="tspan3089"
+         sodipodi:role="line">6</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/63/UPC_PFC/Trunk/web/configuracion
+END
+check_port.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/63/UPC_PFC/Trunk/web/configuracion/check_port.php
+END
+detectar_tot.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/50/UPC_PFC/Trunk/web/configuracion/detectar_tot.php
+END
+quita.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/48/UPC_PFC/Trunk/web/configuracion/quita.php
+END
+check_port_ajax.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/56/UPC_PFC/Trunk/web/configuracion/check_port_ajax.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/10/UPC_PFC/Trunk/web/configuracion/index.php
+END
+configuracio.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/63/UPC_PFC/Trunk/web/configuracion/configuracio.php
+END
+config_ajax.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/50/UPC_PFC/Trunk/web/configuracion/config_ajax.php
+END
+accion.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/10/UPC_PFC/Trunk/web/configuracion/accion.php
+END
+osinfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/51/UPC_PFC/Trunk/web/configuracion/osinfo.php
+END
+detectar_port.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/50/UPC_PFC/Trunk/web/configuracion/detectar_port.php
+END

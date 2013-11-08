@@ -1,0 +1,525 @@
+Release 12.3 Drc M.70d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Sun Sep 16 20:56:10 2012
+
+drc -z system.ncd system.pcf
+
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_0>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_0>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_1>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_1>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_2>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_2>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_3>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_3>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_4>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_4>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_5>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_5>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_6>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_6>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_7>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_7>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_8>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_8>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_9>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_9>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_10>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_10>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_11>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_11>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_12>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_12>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_13>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_13>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_14>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_14>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_15>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<lmb_bram/lmb_bram/ramb16bwe_15>:<RAMB16BWE_RAMB16BWE>.
+INFO:PhysDesignRules:772 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM comp
+   clock_generator_0/clock_generator_0/DCM0_INST/Using_Virtex.DCM_INST/DCM_SP,
+   consult the device Interactive Data Sheet.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA16> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA17> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA18> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA19> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA20> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA21> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA22> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA23> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA24> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA25> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA26> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA27> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA28> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA29> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA30> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA31> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB1> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB2> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB3> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB4> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB5> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB6> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB7> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB8> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB9> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB10> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB11> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB12> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB13> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB14> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB15> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB16> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB17> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB18> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB19> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB20> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB21> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB22> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB23> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB24> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB25> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB26> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB27> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB28> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB29> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB30> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB31> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Tag_RAM_Module/U
+   sing_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB16
+   BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA2> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA3> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA4> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA5> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA6> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA7> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA8> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA9> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA10> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA11> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA12> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA13> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA14> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA15> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA16> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA17> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA18> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA19> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA20> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA21> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA22> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA23> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA24> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA25> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA26> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA27> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA28> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA29> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA30> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA31> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB1> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB2> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB3> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB4> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB5> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB6> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB7> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB8> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB9> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB10> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB11> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB12> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB13> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB14> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB15> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB16> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB17> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB18> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB19> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB20> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB21> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB22> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB23> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB24> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB25> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB26> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB27> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB28> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB29> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB30> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB31> on
+   block:<microblaze_0/microblaze_0/Area.Using_ICache.ICache_I1/Data_RAM_Module/
+   Using_B16_S36.Using_S36_Spartan3A.The_BRAMs[0].RAMB16BWE_I1>:<RAMB16BWE_RAMB1
+   6BWE>.
+DRC detected 0 errors and 144 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

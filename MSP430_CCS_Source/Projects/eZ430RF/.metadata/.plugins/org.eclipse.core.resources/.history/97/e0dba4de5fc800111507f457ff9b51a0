@@ -1,0 +1,33 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+C:/Datos/Proyecto/Ejemplos/eZ430-RF2500\ Wireless\ Sensor\ Monitor/eZ430-RF2500\ Wireless\ Sensor\ Monitor/CCS_Source/Components/bsp/bsp.c 
+
+OBJS += \
+./Components/bsp/bsp.obj 
+
+C_DEPS += \
+./Components/bsp/bsp.pp 
+
+OBJS__QTD += \
+".\Components\bsp\bsp.obj" 
+
+C_DEPS__QTD += \
+".\Components\bsp\bsp.pp" 
+
+C_SRCS_QUOTED += \
+"C:/Datos/Proyecto/Ejemplos/eZ430-RF2500 Wireless Sensor Monitor/eZ430-RF2500 Wireless Sensor Monitor/CCS_Source/Components/bsp/bsp.c" 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Components/bsp/bsp.obj: C:/Datos/Proyecto/Ejemplos/eZ430-RF2500\ Wireless\ Sensor\ Monitor/eZ430-RF2500\ Wireless\ Sensor\ Monitor/CCS_Source/Components/bsp/bsp.c $(GEN_OPTS) $(GEN_SRCS) $(CFG_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: Compiler'
+	"C:/Archivos de programa/Texas Instruments/ccsv4/tools/compiler/msp430/bin/cl430" --cmd_file="C:/Datos/Proyecto/Ejemplos/eZ430-RF2500_Commission/../../Applications/Configuration/smpl_nwk_config.dat" --cmd_file="C:/Datos/Proyecto/Ejemplos/eZ430-RF2500_Commission/../../Applications/Configuration/End_Device/smpl_config.dat"  --silicon_version=msp -g --define=__MSP430F2274__ --define=MRFI_CC2500 --include_path="C:/Archivos de programa/Texas Instruments/ccsv4/msp430/include" --include_path="C:/Archivos de programa/Texas Instruments/ccsv4/tools/compiler/msp430/include" --include_path="C:/Archivos de programa/Texas Instruments/ccsv4/msp430/include" --include_path="C:/Datos/Proyecto/Ejemplos/eZ430-RF2500_Commission/../../../../../Components/bsp" --include_path="C:/Datos/Proyecto/Ejemplos/eZ430-RF2500_Commission/../../../../../Components/bsp/boards/EZ430RF" --include_path="C:/Datos/Proyecto/Ejemplos/eZ430-RF2500_Commission/../../../../../Components/bsp/drivers" --include_path="C:/Datos/Proyecto/Ejemplos/eZ430-RF2500_Commission/../../../../../Components/mrfi" --include_path="C:/Datos/Proyecto/Ejemplos/eZ430-RF2500_Commission/../../../../../Components/simpliciti/nwk" --include_path="C:/Datos/Proyecto/Ejemplos/eZ430-RF2500_Commission/../../../../../Components/simpliciti/nwk_applications" --diag_warning=225 --printf_support=minimal --preproc_with_compile --preproc_dependency="Components/bsp/bsp.pp" --obj_directory="Components/bsp" $(GEN_OPTS_QUOTED) $(subst #,$(wildcard $(subst $(SPACE),\$(SPACE),$<)),"#")
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

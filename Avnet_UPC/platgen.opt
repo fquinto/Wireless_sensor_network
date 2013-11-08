@@ -1,0 +1,9 @@
+-p
+xc3s400aft256-4
+-lang
+vhdl
+-lp
+C:/Avnet_Repository
+-msg
+__xps/ise/xmsgprops.lst
+system.mhs

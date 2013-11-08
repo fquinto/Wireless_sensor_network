@@ -1,0 +1,1 @@
+mb-objcopy -O binary -j .text -j .init -j .rodata -j .sdata2 -j .sbbs2 ./$1 ./flash.bin

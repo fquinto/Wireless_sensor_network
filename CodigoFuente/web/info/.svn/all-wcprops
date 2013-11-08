@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/64/UPC_PFC/Trunk/web/info
+END
+apacheinfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/75/UPC_PFC/Trunk/web/info/apacheinfo.php
+END
+osinfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/48/UPC_PFC/Trunk/web/info/osinfo.php
+END
+mysqlinfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/48/UPC_PFC/Trunk/web/info/mysqlinfo.php
+END
+phpinfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/10/UPC_PFC/Trunk/web/info/phpinfo.php
+END
+system.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/64/UPC_PFC/Trunk/web/info/system.php
+END
+system_image_svg.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/64/UPC_PFC/Trunk/web/info/system_image_svg.php
+END
+system2.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/64/UPC_PFC/Trunk/web/info/system2.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/10/UPC_PFC/Trunk/web/info/index.php
+END
+phpinfo_server.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/76/UPC_PFC/Trunk/web/info/phpinfo_server.php
+END
+phpinfo_all.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/10/UPC_PFC/Trunk/web/info/phpinfo_all.php
+END

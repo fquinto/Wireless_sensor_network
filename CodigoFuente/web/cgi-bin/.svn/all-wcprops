@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/69/UPC_PFC/Trunk/web/cgi-bin
+END
+enviar_linux.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/68/UPC_PFC/Trunk/web/cgi-bin/enviar_linux.py
+END
+version_linux_installed.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/32/UPC_PFC/Trunk/web/cgi-bin/version_linux_installed.py
+END
+version_linux.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/13/UPC_PFC/Trunk/web/cgi-bin/version_linux.py
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/10/UPC_PFC/Trunk/web/cgi-bin/index.php
+END
+lee12.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/10/UPC_PFC/Trunk/web/cgi-bin/lee12.py
+END
+emulatorMSP430_windows.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/46/UPC_PFC/Trunk/web/cgi-bin/emulatorMSP430_windows.py
+END
+test_cgi_python_windows.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/13/UPC_PFC/Trunk/web/cgi-bin/test_cgi_python_windows.py
+END
+givemeports_windows.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/48/UPC_PFC/Trunk/web/cgi-bin/givemeports_windows.py
+END
+emulatorMSP430_linux.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/68/UPC_PFC/Trunk/web/cgi-bin/emulatorMSP430_linux.py
+END
+portsnobusy_windows.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/63/UPC_PFC/Trunk/web/cgi-bin/portsnobusy_windows.py
+END
+test_cgi_python_linux.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/13/UPC_PFC/Trunk/web/cgi-bin/test_cgi_python_linux.py
+END
+recibir_windows_json.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/67/UPC_PFC/Trunk/web/cgi-bin/recibir_windows_json.py
+END
+givemeports_linux.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/48/UPC_PFC/Trunk/web/cgi-bin/givemeports_linux.py
+END
+version.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/10/UPC_PFC/Trunk/web/cgi-bin/version.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/10/UPC_PFC/Trunk/web/cgi-bin/.htaccess
+END
+recibir_linux_json.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/66/UPC_PFC/Trunk/web/cgi-bin/recibir_linux_json.py
+END
+com_windows.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/69/UPC_PFC/Trunk/web/cgi-bin/com_windows.py
+END
+recibir_windows.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/68/UPC_PFC/Trunk/web/cgi-bin/recibir_windows.py
+END
+check_port_windows.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/49/UPC_PFC/Trunk/web/cgi-bin/check_port_windows.py
+END
+com_linux.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/68/UPC_PFC/Trunk/web/cgi-bin/com_linux.py
+END
+version_windows_installed.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/38/UPC_PFC/Trunk/web/cgi-bin/version_windows_installed.py
+END
+enviar_windows.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/68/UPC_PFC/Trunk/web/cgi-bin/enviar_windows.py
+END
+recibir_linux.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/68/UPC_PFC/Trunk/web/cgi-bin/recibir_linux.py
+END
+version_windows.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/13/UPC_PFC/Trunk/web/cgi-bin/version_windows.py
+END
+check_port_linux.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/48/UPC_PFC/Trunk/web/cgi-bin/check_port_linux.py
+END
+test_cgi_python.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/10/UPC_PFC/Trunk/web/cgi-bin/test_cgi_python.php
+END

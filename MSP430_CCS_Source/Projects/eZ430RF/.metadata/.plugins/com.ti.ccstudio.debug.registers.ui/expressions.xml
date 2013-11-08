@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<States>
+<Expressions>
+<Expression IMemento.internal.id="lid">
+<Format Class="com.ti.ccstudio.debug.registers.model.VariableFormat" Name="Hexadecimal"/>
+</Expression>
+<Expression IMemento.internal.id="comando[0]">
+<Format/>
+</Expression>
+<Expression IMemento.internal.id="comando[1]">
+<Format/>
+</Expression>
+<Expression IMemento.internal.id="comando[2]">
+<Format/>
+</Expression>
+<Expression IMemento.internal.id="comando[3]">
+<Format/>
+</Expression>
+<Expression IMemento.internal.id="comando[4]">
+<Format/>
+</Expression>
+<Expression IMemento.internal.id="comando[5]">
+<Format/>
+</Expression>
+<Expression IMemento.internal.id="i">
+<Format Class="com.ti.ccstudio.debug.registers.model.VariableFormat" Name="Decimal"/>
+</Expression>
+<Expression IMemento.internal.id="j">
+<Format/>
+</Expression>
+<Expression IMemento.internal.id="isAP">
+<Format/>
+</Expression>
+<Expression IMemento.internal.id="headdata">
+<Format Class="com.ti.ccstudio.debug.registers.model.VariableFormat" Name="Hexadecimal"/>
+</Expression>
+<Expression IMemento.internal.id="linkToAddr">
+<Format/>
+</Expression>
+<Expression IMemento.internal.id="sLinkID0">
+<Format/>
+</Expression>
+<Expression IMemento.internal.id="byte_enviouno">
+<Format/>
+</Expression>
+<Expression IMemento.internal.id="P2REN">
+<Format/>
+</Expression>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="sSemaphoreCommission" Name="Decimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="((&apos;nwk_globals.c&apos;::sVersionInfo).fwVerString)[3]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="((&apos;nwk_globals.c&apos;::sVersionInfo).fwVerString)[0]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(sigInfo).sigInfo" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(msg)[6]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="sSelfMeasureSem" Name="Decimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="mensaBuf[5]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="sigInfo" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="((*(&apos;nwk_mgmt.c&apos;::sAPAddr)).addr)[3]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(&apos;nwk_link.c&apos;::sServiceLinkID)[1]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="port" Name="Decimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(headResponseData)[0]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="((sigInfo).sigInfo).lqi" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="((*(&apos;nwk_mgmt.c&apos;::sAPAddr)).addr)[2]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="rx" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="*(EDid)" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="((*(&apos;nwk_mgmt.c&apos;::sAPAddr)).addr)[1]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(*(&apos;nwk_mgmt.c&apos;::sAPAddr)).addr" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="((*(&apos;nwk_mgmt.c&apos;::sAPAddr)).addr)[0]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="sRxTid" Name="Decimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(msg)[4]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="msg" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="headResponseData" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="&apos;nwk_frame.c&apos;::sMyAddr" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="&apos;nwk_globals.c&apos;::sVersionInfo" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="mensaBuf[6]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="((linkListenAddr).addr)[0]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="headdata" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(&apos;nwk_link.c&apos;::sServiceLinkID)[0]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="lid" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(msg)[3]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(sigInfo).lid" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="((sigInfo).sigInfo).rssi" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="done" Name="Decimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(msg)[0]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(msg)[5]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="i" Name="Decimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="((linkListenAddr).addr)[3]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="sNumCurrentPeers" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(msg)[1]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="*(done)" Name="Decimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(&apos;nwk_globals.c&apos;::sVersionInfo).protocolVersion" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="*(&apos;nwk_frame.c&apos;::sMyAddr)" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(msg)[2]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="sLinkID1" Name="Decimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="sCommandSem" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="sPeerFrameSem" Name="Decimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="((&apos;nwk_globals.c&apos;::sVersionInfo).fwVerString)[2]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="((linkListenAddr).addr)[1]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="((&apos;nwk_globals.c&apos;::sVersionInfo).fwVerString)[1]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="radioState" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(&apos;nwk_globals.c&apos;::sVersionInfo).fwVerString" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="EDid" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="*(P2OUT)" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(sLID)[0]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="((linkListenAddr).addr)[2]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="sJoinSem" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="P2OUT" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="noAck" Name="Decimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(msg)[7]" Name="Hexadecimal"/>
+</Expressions>
+</States>

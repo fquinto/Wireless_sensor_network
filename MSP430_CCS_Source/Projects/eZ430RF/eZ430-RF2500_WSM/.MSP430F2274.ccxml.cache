@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<configurations>
+
+  <configuration id="configuration_0">
+    <connection desc="TI MSP430 USB1" id="TI MSP430 USB1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\connections\TIMSP430-USB.xml">
+      <connectionType Type="MSP430" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\connections\TIMSP430-USB.xml"/>
+      <property Type="hiddenfield" Value="101" id="portAddr1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\connections\TIMSP430-USB.xml"/>
+      <property Type="hiddenfield" Value="No" id="dataFileRequired" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\connections\TIMSP430-USB.xml"/>
+      <drivers id="drivers" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\drivers\msp430_emu.xml">
+        <isa ProcID="0x6b800000" Type="MSP430" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\drivers\msp430_emu.xml">
+          <driver file="C:\Archivos de programa\Texas Instruments\ccsv4\DebugServer\drivers\msp430_emu.dvr">
+            <connectionType Type="MSP430"/>
+          </driver>
+        </isa>
+      </drivers>
+      <platform id="platform_0">
+        <device desc="MSP430F2274" description="MSP430F2274" id="MSP430F2274" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\devices\MSP430F2274.xml" partnum="MSP430F2274">
+          <property Type="numericfield" Value="80" id="HeapDefaultSize" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\devices\MSP430F2274.xml"/>
+          <property Type="stringfield" Value="minimal" id="PrintfDefault_support" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\devices\MSP430F2274.xml"/>
+          <property Type="numericfield" Value="80" id="StackDefaultSize" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\devices\MSP430F2274.xml"/>
+          <property Type="numericfield" Value="2" id="breakpoints" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\devices\MSP430F2274.xml"/>
+          <property Type="stringfield" Value="STANDARD" id="clockcontrol" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\devices\MSP430F2274.xml"/>
+          <property Type="stringfield" Value="MSP430" id="cpu_family" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\devices\MSP430F2274.xml"/>
+          <property Type="stringfield" Value="EMEX_LOW" id="eem" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\devices\MSP430F2274.xml"/>
+          <property Type="numericfield" Value="0" id="hw_mpy" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\devices\MSP430F2274.xml"/>
+          <property Type="numericfield" Value="3.3" id="target_vcc_default" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\devices\MSP430F2274.xml"/>
+          <property Type="numericfield" Value="1" id="jtag" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\devices\MSP430F2274.xml"/>
+          <property Type="numericfield" Value="1" id="spybiwire" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\devices\MSP430F2274.xml"/>
+          <property Type="numericfield" Value="0" id="cycleCounter" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\devices\MSP430F2274.xml"/>
+          <property Type="stringfield" Value="0xFFE0" id="iv_base" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\devices\MSP430F2274.xml"/>
+          <cpu desc="MSP430" description="MSP430 CPU" id="MSP430" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml" isa="MSP430">
+            <address_space id="program" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml"/>
+            <address_space id="data" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml"/>
+            <register acronym="PC" description="" id="PC" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml" width="16"/>
+            <register acronym="SP" description="" id="SP" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml" width="16"/>
+            <register acronym="SR" description="" id="SR" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml" width="16">
+              <bitfield begin="0" description="Carry bit. This bit is set when the result of a byte or word operation produced a carry and cleared when no carry occurred." end="0" id="C" range="" resetval="0" rwaccess="RW" width="1"/>
+              <bitfield begin="1" description="Zero bit. This bit is set when the result of a byte or word operation is 0 and cleared when the result is not 0." end="1" id="Z" range="" resetval="0" rwaccess="RW" width="1"/>
+              <bitfield begin="2" description="Negative bit. This bit is set when the result of a byte or word operation is negative and cleared when the result is not negative." end="2" id="N" range="" resetval="0" rwaccess="RW" width="1"/>
+              <bitfield begin="3" description="General interrupt enable. This bit, when set, enables maskable interrupts. When reset, all maskable interrupts are disabled." end="3" id="GIE" range="" resetval="0" rwaccess="RW" width="1"/>
+              <bitfield begin="4" description="CPU off. This bit, when set, turns off the CPU." end="4" id="CPUOFF" range="" resetval="0" rwaccess="RW" width="1"/>
+              <bitfield begin="5" description="Oscillator Off. This bit, when set, turns off the LFXT1 crystal oscillator, when LFXT1CLK is not use for MCLK or SMCLK" end="5" id="OSCOFF" range="" resetval="0" rwaccess="RW" width="1"/>
+              <bitfield begin="6" description="System clock generator 0. This bit, when set, turns off the FLL+ loop control" end="6" id="SCG0" range="" resetval="0" rwaccess="RW" width="1"/>
+              <bitfield begin="7" description="System clock generator 1. This bit, when set, turns off the DCO dc generator, if DCOCLK is not used for MCLK or SMCLK." end="7" id="SCG1" range="" resetval="0" rwaccess="RW" width="1"/>
+              <bitfield begin="8" description="Overflow bit. This bit is set when the result of an arithmetic operation overflows the signed-variable range." end="8" id="V" range="" resetval="0" rwaccess="RW" width="1"/>
+            </register>
+            <register acronym="R3" description="" id="R3" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml" width="16"/>
+            <register acronym="R4" description="" id="R4" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml" width="16"/>
+            <register acronym="R5" description="" id="R5" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml" width="16"/>
+            <register acronym="R6" description="" id="R6" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml" width="16"/>
+            <register acronym="R7" description="" id="R7" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml" width="16"/>
+            <register acronym="R8" description="" id="R8" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml" width="16"/>
+            <register acronym="R9" description="" id="R9" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml" width="16"/>
+            <register acronym="R10" description="" id="R10" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml" width="16"/>
+            <register acronym="R11" description="" id="R11" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml" width="16"/>
+            <register acronym="R12" description="" id="R12" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml" width="16"/>
+            <register acronym="R13" description="" id="R13" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml" width="16"/>
+            <register acronym="R14" description="" id="R14" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml" width="16"/>
+            <register acronym="R15" description="" id="R15" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml" width="16"/>
+            <property Type="filepathfield" Value="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\msp430.gel" id="GEL File" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\cpus\MSP430.xml"/>
+            <module accessnumbytes="2" baseaddr="0x0000" description="" id="Special_Function" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Special_Function_11.xml" permissions="p" requestor="MSP430" size="10">
+              <register acronym="IE1" description="IE1" id="IE1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Special_Function_11.xml" offset=" 0x0000" width="8">
+                <bitfield begin="0" description="WDTIE" end="0" id="WDTIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="OFIE" end="1" id="OFIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="NMIIE" end="4" id="NMIIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="ACCVIE" end="5" id="ACCVIE" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="IFG1" description="IFG1" id="IFG1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Special_Function_11.xml" offset=" 0x0002" width="8">
+                <bitfield begin="0" description="WDTIFG" end="0" id="WDTIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="OFIFG" end="1" id="OFIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="PORIFG" end="2" id="PORIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="RSTIFG" end="3" id="RSTIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="NMIIFG" end="4" id="NMIIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="IE2" description="IE2" id="IE2" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Special_Function_11.xml" offset=" 0x0001" width="8">
+                <bitfield begin="0" description="UCA0RXIE" end="0" id="UCA0RXIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="UCA0TXIE" end="1" id="UCA0TXIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="UCB0RXIE" end="2" id="UCB0RXIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="UCB0TXIE" end="3" id="UCB0TXIE" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="IFG2" description="IFG2" id="IFG2" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Special_Function_11.xml" offset=" 0x0003" width="8">
+                <bitfield begin="0" description="UCA0RXIFG" end="0" id="UCA0RXIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="UCA0TXIFG" end="1" id="UCA0TXIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="UCB0RXIFG" end="2" id="UCB0RXIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="UCB0TXIFG" end="3" id="UCB0TXIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+            </module>
+            <module accessnumbytes="2" baseaddr="0x0000" description="" id="ADC10" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\ADC10_3.xml" permissions="p" requestor="MSP430" size="10">
+              <register acronym="ADC10DTC0" description="ADC10DTC0" id="ADC10DTC0" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\ADC10_3.xml" offset=" 0x0048" width="8">
+                <bitfield begin="0" description="ADC10FETCH" end="0" id="ADC10FETCH" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="ADC10B1" end="1" id="ADC10B1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="ADC10CT" end="2" id="ADC10CT" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="ADC10TB" end="3" id="ADC10TB" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="ADC10DTC1" description="ADC10DTC1" id="ADC10DTC1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\ADC10_3.xml" offset=" 0x0049" width="8"/>
+              <register acronym="ADC10AE0" description="ADC10AE0" id="ADC10AE0" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\ADC10_3.xml" offset=" 0x004A" width="8"/>
+              <register acronym="ADC10AE1" description="ADC10AE1" id="ADC10AE1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\ADC10_3.xml" offset=" 0x004B" width="8"/>
+              <register acronym="ADC10CTL0" description="ADC10CTL0" id="ADC10CTL0" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\ADC10_3.xml" offset=" 0x01B0" width="16">
+                <bitfield begin="0" description="ADC10SC" end="0" id="ADC10SC" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="ENC" end="1" id="ENC" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="ADC10IFG" end="2" id="ADC10IFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="ADC10IE" end="3" id="ADC10IE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="ADC10ON" end="4" id="ADC10ON" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="REFON" end="5" id="REFON" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="REF2_5V" end="6" id="REF2_5V" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="MSC" end="7" id="MSC" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="8" description="REFBURST" end="8" id="REFBURST" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="9" description="REFOUT" end="9" id="REFOUT" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="10" description="ADC10SR" end="10" id="ADC10SR" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="11" description="ADC10SHT0" end="11" id="ADC10SHT0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="12" description="ADC10SHT1" end="12" id="ADC10SHT1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="13" description="SREF0" end="13" id="SREF0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="14" description="SREF1" end="14" id="SREF1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="15" description="SREF3" end="15" id="SREF3" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="ADC10CTL1" description="ADC10CTL1" id="ADC10CTL1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\ADC10_3.xml" offset=" 0x01B2" width="16">
+                <bitfield begin="0" description="ADC10BUSY" end="0" id="ADC10BUSY" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="CONSEQ0" end="1" id="CONSEQ0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="CONSEQ1" end="2" id="CONSEQ1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="ADC10SSEL0" end="3" id="ADC10SSEL0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="ADC10SSEL1" end="4" id="ADC10SSEL1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="ADC10DIV0" end="5" id="ADC10DIV0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="ADC10DIV1" end="6" id="ADC10DIV1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="ADC10DIV2" end="7" id="ADC10DIV2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="8" description="ISSH" end="8" id="ISSH" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="9" description="ADC10DF" end="9" id="ADC10DF" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="10" description="SHS0" end="10" id="SHS0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="11" description="SHS1" end="11" id="SHS1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="12" description="INCH0" end="12" id="INCH0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="13" description="INCH1" end="13" id="INCH1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="14" description="INCH2" end="14" id="INCH2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="15" description="INCH3" end="15" id="INCH3" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="ADC10MEM" description="ADC10MEM" id="ADC10MEM" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\ADC10_3.xml" offset=" 0x01B4" width="16"/>
+              <register acronym="ADC10SA" description="ADC10SA" id="ADC10SA" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\ADC10_3.xml" offset=" 0x01BC" width="16"/>
+            </module>
+            <module accessnumbytes="2" baseaddr="0x0000" description="" id="System_Clock" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\System_Clock_4.xml" permissions="p" requestor="MSP430" size="10">
+              <register acronym="DCOCTL" description="DCOCTL" id="DCOCTL" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\System_Clock_4.xml" offset=" 0x0056" width="8">
+                <bitfield begin="0" description="MOD0" end="0" id="MOD0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="MOD1" end="1" id="MOD1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="MOD2" end="2" id="MOD2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="MOD3" end="3" id="MOD3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="MOD4" end="4" id="MOD4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="DCO0" end="5" id="DCO0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="DCO1" end="6" id="DCO1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="DCO2" end="7" id="DCO2" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="BCSCTL1" description="BCSCTL1" id="BCSCTL1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\System_Clock_4.xml" offset=" 0x0057" width="8">
+                <bitfield begin="0" description="RSEL0" end="0" id="RSEL0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="RSEL1" end="1" id="RSEL1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="RSEL2" end="2" id="RSEL2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="RSEL3" end="3" id="RSEL3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="DIVA0" end="4" id="DIVA0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="DIVA1" end="5" id="DIVA1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="XTS" end="6" id="XTS" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="XT2OFF" end="7" id="XT2OFF" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="BCSCTL2" description="BCSCTL2" id="BCSCTL2" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\System_Clock_4.xml" offset=" 0x0058" width="8">
+                <bitfield begin="0" description="DCOR" end="0" id="DCOR" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="DIVS0" end="1" id="DIVS0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="DIVS1" end="2" id="DIVS1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="SELS" end="3" id="SELS" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="DIVM0" end="4" id="DIVM0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="DIVM1" end="5" id="DIVM1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="SELM0" end="6" id="SELM0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="SELM1" end="7" id="SELM1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="BCSCTL3" description="BCSCTL3" id="BCSCTL3" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\System_Clock_4.xml" offset=" 0x0053" width="8">
+                <bitfield begin="0" description="LFXT1OF" end="0" id="LFXT1OF" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="XT2OF" end="1" id="XT2OF" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="XCAP0" end="2" id="XCAP0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="XCAP1" end="3" id="XCAP1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="LFXT1S0" end="4" id="LFXT1S0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="LFXT1S1" end="5" id="LFXT1S1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="XT2S0" end="6" id="XT2S0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="XT2S1" end="7" id="XT2S1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+            </module>
+            <module accessnumbytes="2" baseaddr="0x0000" description="" id="Flash" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Flash_4.xml" permissions="p" requestor="MSP430" size="10">
+              <register acronym="FCTL1" description="FCTL1" id="FCTL1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Flash_4.xml" offset=" 0x0128" width="16">
+                <bitfield begin="1" description="ERASE" end="1" id="ERASE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="MERAS" end="2" id="MERAS" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="EEI" end="3" id="EEI" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="EEIEX" end="4" id="EEIEX" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="WRT" end="6" id="WRT" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="BLKWRT" end="7" id="BLKWRT" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="FCTL2" description="FCTL2" id="FCTL2" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Flash_4.xml" offset=" 0x012A" width="16">
+                <bitfield begin="0" description="FN0" end="0" id="FN0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="FN1" end="1" id="FN1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="FN2" end="2" id="FN2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="FN3" end="3" id="FN3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="FN4" end="4" id="FN4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="FN5" end="5" id="FN5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="FSSEL0" end="6" id="FSSEL0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="FSSEL1" end="7" id="FSSEL1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="FCTL3" description="FCTL3" id="FCTL3" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Flash_4.xml" offset=" 0x012C" width="16">
+                <bitfield begin="0" description="BUSY" end="0" id="BUSY" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="KEYV" end="1" id="KEYV" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="ACCVIFG" end="2" id="ACCVIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="WAIT" end="3" id="WAIT" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="LOCK" end="4" id="LOCK" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="EMEX" end="5" id="EMEX" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="LOCKA" end="6" id="LOCKA" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="FAIL" end="7" id="FAIL" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+            </module>
+            <module accessnumbytes="2" baseaddr="0x0000" description="" id="Operational_Amplifier" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Operational_Amplifier_2.xml" permissions="p" requestor="MSP430" size="10">
+              <register acronym="OA0CTL0" description="OA0CTL0" id="OA0CTL0" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Operational_Amplifier_2.xml" offset=" 0x00C0" width="8">
+                <bitfield begin="0" description="OAADC0" end="0" id="OAADC0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="OAADC1" end="1" id="OAADC1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="OAPM0" end="2" id="OAPM0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="OAPM1" end="3" id="OAPM1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="OAP0" end="4" id="OAP0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="OAP1" end="5" id="OAP1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="OAN0" end="6" id="OAN0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="OAN1" end="7" id="OAN1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="OA0CTL1" description="OA0CTL1" id="OA0CTL1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Operational_Amplifier_2.xml" offset=" 0x00C1" width="8">
+                <bitfield begin="0" description="OARRIP" end="0" id="OARRIP" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="OANEXT" end="1" id="OANEXT" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="OAFC0" end="2" id="OAFC0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="OAFC1" end="3" id="OAFC1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="OAFC2" end="4" id="OAFC2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="OAFBR0" end="5" id="OAFBR0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="OAFBR1" end="6" id="OAFBR1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="OAFBR2" end="7" id="OAFBR2" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="OA1CTL0" description="OA1CTL0" id="OA1CTL0" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Operational_Amplifier_2.xml" offset=" 0x00C2" width="8">
+                <bitfield begin="0" description="OAADC0" end="0" id="OAADC0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="OAADC1" end="1" id="OAADC1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="OAPM0" end="2" id="OAPM0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="OAPM1" end="3" id="OAPM1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="OAP0" end="4" id="OAP0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="OAP1" end="5" id="OAP1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="OAN0" end="6" id="OAN0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="OAN1" end="7" id="OAN1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="OA1CTL1" description="OA1CTL1" id="OA1CTL1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Operational_Amplifier_2.xml" offset=" 0x00C3" width="8">
+                <bitfield begin="0" description="OARRIP" end="0" id="OARRIP" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="OANEXT" end="1" id="OANEXT" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="OAFC0" end="2" id="OAFC0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="OAFC1" end="3" id="OAFC1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="OAFC2" end="4" id="OAFC2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="OAFBR0" end="5" id="OAFBR0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="OAFBR1" end="6" id="OAFBR1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="OAFBR2" end="7" id="OAFBR2" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+            </module>
+            <module accessnumbytes="2" baseaddr="0x0000" description="" id="Port_1_2" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_1_2_2.xml" permissions="p" requestor="MSP430" size="10">
+              <register acronym="P1IN" description="P1IN" id="P1IN" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_1_2_2.xml" offset=" 0x0020" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P1OUT" description="P1OUT" id="P1OUT" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_1_2_2.xml" offset=" 0x0021" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P1DIR" description="P1DIR" id="P1DIR" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_1_2_2.xml" offset=" 0x0022" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P1IFG" description="P1IFG" id="P1IFG" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_1_2_2.xml" offset=" 0x0023" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P1IES" description="P1IES" id="P1IES" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_1_2_2.xml" offset=" 0x0024" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P1IE" description="P1IE" id="P1IE" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_1_2_2.xml" offset=" 0x0025" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P1SEL" description="P1SEL" id="P1SEL" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_1_2_2.xml" offset=" 0x0026" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P1REN" description="P1REN" id="P1REN" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_1_2_2.xml" offset=" 0x0027" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P2IN" description="P2IN" id="P2IN" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_1_2_2.xml" offset=" 0x0028" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P2OUT" description="P2OUT" id="P2OUT" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_1_2_2.xml" offset=" 0x0029" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P2DIR" description="P2DIR" id="P2DIR" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_1_2_2.xml" offset=" 0x002A" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P2IFG" description="P2IFG" id="P2IFG" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_1_2_2.xml" offset=" 0x002B" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P2IES" description="P2IES" id="P2IES" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_1_2_2.xml" offset=" 0x002C" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P2IE" description="P2IE" id="P2IE" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_1_2_2.xml" offset=" 0x002D" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P2SEL" description="P2SEL" id="P2SEL" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_1_2_2.xml" offset=" 0x002E" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P2REN" description="P2REN" id="P2REN" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_1_2_2.xml" offset=" 0x002F" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+            </module>
+            <module accessnumbytes="2" baseaddr="0x0000" description="" id="Port_3_4" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_3_4_3.xml" permissions="p" requestor="MSP430" size="10">
+              <register acronym="P3IN" description="P3IN" id="P3IN" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_3_4_3.xml" offset=" 0x0018" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P3OUT" description="P3OUT" id="P3OUT" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_3_4_3.xml" offset=" 0x0019" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P3DIR" description="P3DIR" id="P3DIR" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_3_4_3.xml" offset=" 0x001A" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P3SEL" description="P3SEL" id="P3SEL" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_3_4_3.xml" offset=" 0x001B" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P3REN" description="P3REN" id="P3REN" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_3_4_3.xml" offset=" 0x0010" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P4IN" description="P4IN" id="P4IN" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_3_4_3.xml" offset=" 0x001C" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P4OUT" description="P4OUT" id="P4OUT" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_3_4_3.xml" offset=" 0x001D" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P4DIR" description="P4DIR" id="P4DIR" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_3_4_3.xml" offset=" 0x001E" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P4SEL" description="P4SEL" id="P4SEL" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_3_4_3.xml" offset=" 0x001F" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="P4REN" description="P4REN" id="P4REN" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Port_3_4_3.xml" offset=" 0x0011" width="8">
+                <bitfield begin="0" description="P0" end="0" id="P0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="P1" end="1" id="P1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="P2" end="2" id="P2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="P3" end="3" id="P3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="P4" end="4" id="P4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="P5" end="5" id="P5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="P6" end="6" id="P6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="P7" end="7" id="P7" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+            </module>
+            <module accessnumbytes="2" baseaddr="0x0000" description="" id="Timer_A3" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_A3_1.xml" permissions="p" requestor="MSP430" size="10">
+              <register acronym="TAIV" description="TAIV" id="TAIV" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_A3_1.xml" offset=" 0x012E" width="16"/>
+              <register acronym="TACTL" description="TACTL" id="TACTL" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_A3_1.xml" offset=" 0x0160" width="16">
+                <bitfield begin="0" description="TAIFG" end="0" id="TAIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="TAIE" end="1" id="TAIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="TACLR" end="2" id="TACLR" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="MC0" end="4" id="MC0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="MC1" end="5" id="MC1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="ID0" end="6" id="ID0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="ID1" end="7" id="ID1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="8" description="TASSEL0" end="8" id="TASSEL0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="9" description="TASSEL1" end="9" id="TASSEL1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="TACCTL0" description="TACCTL0" id="TACCTL0" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_A3_1.xml" offset=" 0x0162" width="16">
+                <bitfield begin="0" description="CCIFG" end="0" id="CCIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="COV" end="1" id="COV" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="OUT" end="2" id="OUT" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="CCI" end="3" id="CCI" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="CCIE" end="4" id="CCIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="OUTMOD0" end="5" id="OUTMOD0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="OUTMOD1" end="6" id="OUTMOD1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="OUTMOD2" end="7" id="OUTMOD2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="8" description="CAP" end="8" id="CAP" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="10" description="SCCI" end="10" id="SCCI" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="11" description="SCS" end="11" id="SCS" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="12" description="CCIS0" end="12" id="CCIS0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="13" description="CCIS1" end="13" id="CCIS1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="14" description="CM0" end="14" id="CM0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="15" description="CM1" end="15" id="CM1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="TACCTL1" description="TACCTL1" id="TACCTL1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_A3_1.xml" offset=" 0x0164" width="16">
+                <bitfield begin="0" description="CCIFG" end="0" id="CCIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="COV" end="1" id="COV" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="OUT" end="2" id="OUT" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="CCI" end="3" id="CCI" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="CCIE" end="4" id="CCIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="OUTMOD0" end="5" id="OUTMOD0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="OUTMOD1" end="6" id="OUTMOD1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="OUTMOD2" end="7" id="OUTMOD2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="8" description="CAP" end="8" id="CAP" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="10" description="SCCI" end="10" id="SCCI" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="11" description="SCS" end="11" id="SCS" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="12" description="CCIS0" end="12" id="CCIS0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="13" description="CCIS1" end="13" id="CCIS1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="14" description="CM0" end="14" id="CM0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="15" description="CM1" end="15" id="CM1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="TACCTL2" description="TACCTL2" id="TACCTL2" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_A3_1.xml" offset=" 0x0166" width="16">
+                <bitfield begin="0" description="CCIFG" end="0" id="CCIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="COV" end="1" id="COV" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="OUT" end="2" id="OUT" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="CCI" end="3" id="CCI" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="CCIE" end="4" id="CCIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="OUTMOD0" end="5" id="OUTMOD0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="OUTMOD1" end="6" id="OUTMOD1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="OUTMOD2" end="7" id="OUTMOD2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="8" description="CAP" end="8" id="CAP" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="10" description="SCCI" end="10" id="SCCI" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="11" description="SCS" end="11" id="SCS" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="12" description="CCIS0" end="12" id="CCIS0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="13" description="CCIS1" end="13" id="CCIS1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="14" description="CM0" end="14" id="CM0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="15" description="CM1" end="15" id="CM1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="TAR" description="TAR" id="TAR" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_A3_1.xml" offset=" 0x0170" width="16"/>
+              <register acronym="TACCR0" description="TACCR0" id="TACCR0" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_A3_1.xml" offset=" 0x0172" width="16"/>
+              <register acronym="TACCR1" description="TACCR1" id="TACCR1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_A3_1.xml" offset=" 0x0174" width="16"/>
+              <register acronym="TACCR2" description="TACCR2" id="TACCR2" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_A3_1.xml" offset=" 0x0176" width="16"/>
+            </module>
+            <module accessnumbytes="2" baseaddr="0x0000" description="" id="Timer_B3" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_B3_1.xml" permissions="p" requestor="MSP430" size="10">
+              <register acronym="TBIV" description="TBIV" id="TBIV" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_B3_1.xml" offset=" 0x011E" width="16"/>
+              <register acronym="TBCTL" description="TBCTL" id="TBCTL" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_B3_1.xml" offset=" 0x0180" width="16">
+                <bitfield begin="0" description="TBIFG" end="0" id="TBIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="TBIE" end="1" id="TBIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="TBCLR" end="2" id="TBCLR" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="MC0" end="4" id="MC0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="MC1" end="5" id="MC1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="ID0" end="6" id="ID0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="ID1" end="7" id="ID1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="8" description="TBSSEL0" end="8" id="TBSSEL0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="9" description="TBSSEL1" end="9" id="TBSSEL1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="11" description="CNTL0" end="11" id="CNTL0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="12" description="CNTL1" end="12" id="CNTL1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="13" description="TBCLGRP0" end="13" id="TBCLGRP0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="14" description="TBCLGRP1" end="14" id="TBCLGRP1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="TBCCTL0" description="TBCCTL0" id="TBCCTL0" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_B3_1.xml" offset=" 0x0182" width="16">
+                <bitfield begin="0" description="CCIFG" end="0" id="CCIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="COV" end="1" id="COV" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="OUT" end="2" id="OUT" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="CCI" end="3" id="CCI" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="CCIE" end="4" id="CCIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="OUTMOD0" end="5" id="OUTMOD0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="OUTMOD1" end="6" id="OUTMOD1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="OUTMOD2" end="7" id="OUTMOD2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="8" description="CAP" end="8" id="CAP" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="9" description="CLLD0" end="9" id="CLLD0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="10" description="CLLD1" end="10" id="CLLD1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="11" description="SCS" end="11" id="SCS" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="12" description="CCIS0" end="12" id="CCIS0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="13" description="CCIS1" end="13" id="CCIS1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="14" description="CM0" end="14" id="CM0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="15" description="CM1" end="15" id="CM1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="TBCCTL1" description="TBCCTL1" id="TBCCTL1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_B3_1.xml" offset=" 0x0184" width="16">
+                <bitfield begin="0" description="CCIFG" end="0" id="CCIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="COV" end="1" id="COV" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="OUT" end="2" id="OUT" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="CCI" end="3" id="CCI" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="CCIE" end="4" id="CCIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="OUTMOD0" end="5" id="OUTMOD0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="OUTMOD1" end="6" id="OUTMOD1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="OUTMOD2" end="7" id="OUTMOD2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="8" description="CAP" end="8" id="CAP" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="9" description="CLLD0" end="9" id="CLLD0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="10" description="CLLD1" end="10" id="CLLD1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="11" description="SCS" end="11" id="SCS" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="12" description="CCIS0" end="12" id="CCIS0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="13" description="CCIS1" end="13" id="CCIS1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="14" description="CM0" end="14" id="CM0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="15" description="CM1" end="15" id="CM1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="TBCCTL2" description="TBCCTL2" id="TBCCTL2" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_B3_1.xml" offset=" 0x0186" width="16">
+                <bitfield begin="0" description="CCIFG" end="0" id="CCIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="COV" end="1" id="COV" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="OUT" end="2" id="OUT" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="CCI" end="3" id="CCI" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="CCIE" end="4" id="CCIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="OUTMOD0" end="5" id="OUTMOD0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="OUTMOD1" end="6" id="OUTMOD1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="OUTMOD2" end="7" id="OUTMOD2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="8" description="CAP" end="8" id="CAP" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="9" description="CLLD0" end="9" id="CLLD0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="10" description="CLLD1" end="10" id="CLLD1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="11" description="SCS" end="11" id="SCS" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="12" description="CCIS0" end="12" id="CCIS0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="13" description="CCIS1" end="13" id="CCIS1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="14" description="CM0" end="14" id="CM0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="15" description="CM1" end="15" id="CM1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="TBR" description="TBR" id="TBR" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_B3_1.xml" offset=" 0x0190" width="16"/>
+              <register acronym="TBCCR0" description="TBCCR0" id="TBCCR0" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_B3_1.xml" offset=" 0x0192" width="16"/>
+              <register acronym="TBCCR1" description="TBCCR1" id="TBCCR1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_B3_1.xml" offset=" 0x0194" width="16"/>
+              <register acronym="TBCCR2" description="TBCCR2" id="TBCCR2" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Timer_B3_1.xml" offset=" 0x0196" width="16"/>
+            </module>
+            <module accessnumbytes="2" baseaddr="0x0000" description="" id="USCI_A0__UART_Mode" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__UART_Mode_1.xml" permissions="p" requestor="MSP430" size="10">
+              <register acronym="UCA0CTL0" description="UCA0CTL0" id="UCA0CTL0" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__UART_Mode_1.xml" offset=" 0x0060" width="8">
+                <bitfield begin="0" description="UCSYNC" end="0" id="UCSYNC" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="UCMODE0" end="1" id="UCMODE0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="UCMODE1" end="2" id="UCMODE1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="UCSPB" end="3" id="UCSPB" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="UC7BIT" end="4" id="UC7BIT" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="UCMSB" end="5" id="UCMSB" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="UCPAR" end="6" id="UCPAR" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="UCPEN" end="7" id="UCPEN" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="UCA0CTL1" description="UCA0CTL1" id="UCA0CTL1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__UART_Mode_1.xml" offset=" 0x0061" width="8">
+                <bitfield begin="0" description="UCSWRST" end="0" id="UCSWRST" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="UCTXBRK" end="1" id="UCTXBRK" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="UCTXADDR" end="2" id="UCTXADDR" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="UCDORM" end="3" id="UCDORM" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="UCBRKIE" end="4" id="UCBRKIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="UCRXEIE" end="5" id="UCRXEIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="UCSSEL0" end="6" id="UCSSEL0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="UCSSEL1" end="7" id="UCSSEL1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="UCA0BR0" description="UCA0BR0" id="UCA0BR0" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__UART_Mode_1.xml" offset=" 0x0062" width="8"/>
+              <register acronym="UCA0BR1" description="UCA0BR1" id="UCA0BR1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__UART_Mode_1.xml" offset=" 0x0063" width="8"/>
+              <register acronym="UCA0MCTL" description="UCA0MCTL" id="UCA0MCTL" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__UART_Mode_1.xml" offset=" 0x0064" width="8">
+                <bitfield begin="0" description="UCOS16" end="0" id="UCOS16" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="UCBRS0" end="1" id="UCBRS0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="UCBRS1" end="2" id="UCBRS1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="UCBRS2" end="3" id="UCBRS2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="UCBRF0" end="4" id="UCBRF0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="UCBRF1" end="5" id="UCBRF1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="UCBRF2" end="6" id="UCBRF2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="UCBRF3" end="7" id="UCBRF3" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="UCA0STAT" description="UCA0STAT" id="UCA0STAT" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__UART_Mode_1.xml" offset=" 0x0065" width="8">
+                <bitfield begin="0" description="UCBUSY" end="0" id="UCBUSY" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="UCADDR" end="1" id="UCADDR" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="UCRXERR" end="2" id="UCRXERR" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="UCBRK" end="3" id="UCBRK" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="UCPE" end="4" id="UCPE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="UCOE" end="5" id="UCOE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="UCFE" end="6" id="UCFE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="UCLISTEN" end="7" id="UCLISTEN" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="UCA0RXBUF" description="UCA0RXBUF" id="UCA0RXBUF" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__UART_Mode_1.xml" offset=" 0x0066" width="8"/>
+              <register acronym="UCA0TXBUF" description="UCA0TXBUF" id="UCA0TXBUF" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__UART_Mode_1.xml" offset=" 0x0067" width="8"/>
+              <register acronym="UCA0ABCTL" description="UCA0ABCTL" id="UCA0ABCTL" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__UART_Mode_1.xml" offset=" 0x005D" width="8">
+                <bitfield begin="0" description="UCABDEN" end="0" id="UCABDEN" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="UCBTOE" end="2" id="UCBTOE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="UCSTOE" end="3" id="UCSTOE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="UCDELIM0" end="4" id="UCDELIM0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="UCDELIM1" end="5" id="UCDELIM1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="UCA0IRTCTL" description="UCA0IRTCTL" id="UCA0IRTCTL" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__UART_Mode_1.xml" offset=" 0x005E" width="8">
+                <bitfield begin="0" description="UCIREN" end="0" id="UCIREN" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="UCIRTXCLK" end="1" id="UCIRTXCLK" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="UCIRTXPL0" end="2" id="UCIRTXPL0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="UCIRTXPL1" end="3" id="UCIRTXPL1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="UCIRTXPL2" end="4" id="UCIRTXPL2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="UCIRTXPL3" end="5" id="UCIRTXPL3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="UCIRTXPL4" end="6" id="UCIRTXPL4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="UCIRTXPL5" end="7" id="UCIRTXPL5" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="UCA0IRRCTL" description="UCA0IRRCTL" id="UCA0IRRCTL" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__UART_Mode_1.xml" offset=" 0x005F" width="8">
+                <bitfield begin="0" description="UCIRRXFE" end="0" id="UCIRRXFE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="UCIRRXPL" end="1" id="UCIRRXPL" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="UCIRRXFL0" end="2" id="UCIRRXFL0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="UCIRRXFL1" end="3" id="UCIRRXFL1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="UCIRRXFL2" end="4" id="UCIRRXFL2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="UCIRRXFL3" end="5" id="UCIRRXFL3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="UCIRRXFL4" end="6" id="UCIRRXFL4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="UCIRRXFL5" end="7" id="UCIRRXFL5" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+            </module>
+            <module accessnumbytes="2" baseaddr="0x0000" description="" id="USCI_A0__SPI_Mode" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__SPI_Mode_1.xml" permissions="p" requestor="MSP430" size="10">
+              <register acronym="UCA0CTL0__SPI" description="UCA0CTL0__SPI" id="UCA0CTL0__SPI" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__SPI_Mode_1.xml" offset=" 0x0060" width="8">
+                <bitfield begin="0" description="UCSYNC" end="0" id="UCSYNC" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="UCMODE0" end="1" id="UCMODE0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="UCMODE1" end="2" id="UCMODE1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="UCMST" end="3" id="UCMST" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="UC7BIT" end="4" id="UC7BIT" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="UCMSB" end="5" id="UCMSB" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="UCCKPL" end="6" id="UCCKPL" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="UCCKPH" end="7" id="UCCKPH" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="UCA0CTL1__SPI" description="UCA0CTL1__SPI" id="UCA0CTL1__SPI" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__SPI_Mode_1.xml" offset=" 0x0061" width="8">
+                <bitfield begin="0" description="UCSWRST" end="0" id="UCSWRST" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="UCSSEL0" end="6" id="UCSSEL0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="UCSSEL1" end="7" id="UCSSEL1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="UCA0BR0__SPI" description="UCA0BR0__SPI" id="UCA0BR0__SPI" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__SPI_Mode_1.xml" offset=" 0x0062" width="8"/>
+              <register acronym="UCA0BR1__SPI" description="UCA0BR1__SPI" id="UCA0BR1__SPI" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__SPI_Mode_1.xml" offset=" 0x0063" width="8"/>
+              <register acronym="UCA0MCTL__SPI" description="UCA0MCTL__SPI" id="UCA0MCTL__SPI" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__SPI_Mode_1.xml" offset=" 0x0064" width="8"/>
+              <register acronym="UCA0STAT__SPI" description="UCA0STAT__SPI" id="UCA0STAT__SPI" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__SPI_Mode_1.xml" offset=" 0x0065" width="8">
+                <bitfield begin="0" description="UCBUSY" end="0" id="UCBUSY" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="UCOE" end="5" id="UCOE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="UCFE" end="6" id="UCFE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="UCLISTEN" end="7" id="UCLISTEN" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="UCA0RXBUF__SPI" description="UCA0RXBUF__SPI" id="UCA0RXBUF__SPI" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__SPI_Mode_1.xml" offset=" 0x0066" width="8"/>
+              <register acronym="UCA0TXBUF__SPI" description="UCA0TXBUF__SPI" id="UCA0TXBUF__SPI" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_A0__SPI_Mode_1.xml" offset=" 0x0067" width="8"/>
+            </module>
+            <module accessnumbytes="2" baseaddr="0x0000" description="" id="USCI_B0__SPI_Mode" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__SPI_Mode_1.xml" permissions="p" requestor="MSP430" size="10">
+              <register acronym="UCB0CTL0__SPI" description="UCB0CTL0__SPI" id="UCB0CTL0__SPI" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__SPI_Mode_1.xml" offset=" 0x0068" width="8">
+                <bitfield begin="0" description="UCSYNC" end="0" id="UCSYNC" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="UCMODE0" end="1" id="UCMODE0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="UCMODE1" end="2" id="UCMODE1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="UCMST" end="3" id="UCMST" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="UC7BIT" end="4" id="UC7BIT" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="UCMSB" end="5" id="UCMSB" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="UCCKPL" end="6" id="UCCKPL" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="UCCKPH" end="7" id="UCCKPH" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="UCB0CTL1__SPI" description="UCB0CTL1__SPI" id="UCB0CTL1__SPI" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__SPI_Mode_1.xml" offset=" 0x0069" width="8">
+                <bitfield begin="0" description="UCSWRST" end="0" id="UCSWRST" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="UCSSEL0" end="6" id="UCSSEL0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="UCSSEL1" end="7" id="UCSSEL1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="UCB0BR0__SPI" description="UCB0BR0__SPI" id="UCB0BR0__SPI" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__SPI_Mode_1.xml" offset=" 0x006A" width="8"/>
+              <register acronym="UCB0BR1__SPI" description="UCB0BR1__SPI" id="UCB0BR1__SPI" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__SPI_Mode_1.xml" offset=" 0x006B" width="8"/>
+              <register acronym="UCB0STAT__SPI" description="UCB0STAT__SPI" id="UCB0STAT__SPI" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__SPI_Mode_1.xml" offset=" 0x006D" width="8">
+                <bitfield begin="0" description="UCBUSY" end="0" id="UCBUSY" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="UCOE" end="5" id="UCOE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="UCFE" end="6" id="UCFE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="UCLISTEN" end="7" id="UCLISTEN" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="UCB0RXBUF__SPI" description="UCB0RXBUF__SPI" id="UCB0RXBUF__SPI" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__SPI_Mode_1.xml" offset=" 0x006E" width="8"/>
+              <register acronym="UCB0TXBUF__SPI" description="UCB0TXBUF__SPI" id="UCB0TXBUF__SPI" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__SPI_Mode_1.xml" offset=" 0x006F" width="8"/>
+            </module>
+            <module accessnumbytes="2" baseaddr="0x0000" description="" id="USCI_B0__I2C_Mode" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__I2C_Mode_1.xml" permissions="p" requestor="MSP430" size="10">
+              <register acronym="UCB0CTL0" description="UCB0CTL0" id="UCB0CTL0" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__I2C_Mode_1.xml" offset=" 0x0068" width="8">
+                <bitfield begin="0" description="UCSYNC" end="0" id="UCSYNC" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="UCMODE0" end="1" id="UCMODE0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="UCMODE1" end="2" id="UCMODE1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="UCMST" end="3" id="UCMST" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="UCMM" end="5" id="UCMM" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="UCSLA10" end="6" id="UCSLA10" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="UCA10" end="7" id="UCA10" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="UCB0CTL1" description="UCB0CTL1" id="UCB0CTL1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__I2C_Mode_1.xml" offset=" 0x0069" width="8">
+                <bitfield begin="0" description="UCSWRST" end="0" id="UCSWRST" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="UCTXSTT" end="1" id="UCTXSTT" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="UCTXSTP" end="2" id="UCTXSTP" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="UCTXNACK" end="3" id="UCTXNACK" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="UCTR" end="4" id="UCTR" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="UCSSEL0" end="6" id="UCSSEL0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="UCSSEL1" end="7" id="UCSSEL1" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="UCB0BR0" description="UCB0BR0" id="UCB0BR0" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__I2C_Mode_1.xml" offset=" 0x006A" width="8"/>
+              <register acronym="UCB0BR1" description="UCB0BR1" id="UCB0BR1" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__I2C_Mode_1.xml" offset=" 0x006B" width="8"/>
+              <register acronym="UCB0I2CIE" description="UCB0I2CIE" id="UCB0I2CIE" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__I2C_Mode_1.xml" offset=" 0x006C" width="8">
+                <bitfield begin="0" description="UCALIE" end="0" id="UCALIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="UCSTTIE" end="1" id="UCSTTIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="UCSTPIE" end="2" id="UCSTPIE" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="UCNACKIE" end="3" id="UCNACKIE" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="UCB0STAT" description="UCB0STAT" id="UCB0STAT" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__I2C_Mode_1.xml" offset=" 0x006D" width="8">
+                <bitfield begin="0" description="UCALIFG" end="0" id="UCALIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="UCSTTIFG" end="1" id="UCSTTIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="UCSTPIFG" end="2" id="UCSTPIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="UCNACKIFG" end="3" id="UCNACKIFG" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="UCBBUSY" end="4" id="UCBBUSY" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="UCGC" end="5" id="UCGC" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="UCSCLLOW" end="6" id="UCSCLLOW" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="UCLISTEN" end="7" id="UCLISTEN" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="UCB0RXBUF" description="UCB0RXBUF" id="UCB0RXBUF" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__I2C_Mode_1.xml" offset=" 0x006E" width="8"/>
+              <register acronym="UCB0TXBUF" description="UCB0TXBUF" id="UCB0TXBUF" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__I2C_Mode_1.xml" offset=" 0x006F" width="8"/>
+              <register acronym="UCB0I2COA" description="UCB0I2COA" id="UCB0I2COA" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__I2C_Mode_1.xml" offset=" 0x0118" width="16">
+                <bitfield begin="0" description="UCOA0" end="0" id="UCOA0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="UCOA1" end="1" id="UCOA1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="UCOA2" end="2" id="UCOA2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="UCOA3" end="3" id="UCOA3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="UCOA4" end="4" id="UCOA4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="UCOA5" end="5" id="UCOA5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="UCOA6" end="6" id="UCOA6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="UCOA7" end="7" id="UCOA7" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="8" description="UCOA8" end="8" id="UCOA8" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="9" description="UCOA9" end="9" id="UCOA9" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="15" description="UCGCEN" end="15" id="UCGCEN" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+              <register acronym="UCB0I2CSA" description="UCB0I2CSA" id="UCB0I2CSA" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\USCI_B0__I2C_Mode_1.xml" offset=" 0x011A" width="16">
+                <bitfield begin="0" description="UCSA0" end="0" id="UCSA0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="UCSA1" end="1" id="UCSA1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="UCSA2" end="2" id="UCSA2" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="UCSA3" end="3" id="UCSA3" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="UCSA4" end="4" id="UCSA4" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="UCSA5" end="5" id="UCSA5" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="UCSA6" end="6" id="UCSA6" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="UCSA7" end="7" id="UCSA7" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="8" description="UCSA8" end="8" id="UCSA8" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="9" description="UCSA9" end="9" id="UCSA9" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+            </module>
+            <module accessnumbytes="2" baseaddr="0x0000" description="" id="Watchdog_Timer" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Watchdog_Timer_1.xml" permissions="p" requestor="MSP430" size="10">
+              <register acronym="WDTCTL" description="WDTCTL" id="WDTCTL" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Watchdog_Timer_1.xml" offset=" 0x0120" width="16">
+                <bitfield begin="0" description="WDTIS0" end="0" id="WDTIS0" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="1" description="WDTIS1" end="1" id="WDTIS1" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="2" description="WDTSSEL" end="2" id="WDTSSEL" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="3" description="WDTCNTCL" end="3" id="WDTCNTCL" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="4" description="WDTTMSEL" end="4" id="WDTTMSEL" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="5" description="WDTNMI" end="5" id="WDTNMI" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="6" description="WDTNMIES" end="6" id="WDTNMIES" range="" resetval="0" rwaccess="RW" width="1"/>
+                <bitfield begin="7" description="WDTHOLD" end="7" id="WDTHOLD" range="" resetval="0" rwaccess="RW" width="1"/>
+              </register>
+            </module>
+            <module accessnumbytes="2" baseaddr="0x0000" description="" id="Calibration_Data" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Calibration_Data_1.xml" permissions="p" requestor="MSP430" size="10">
+              <register acronym="CALDCO_16MHZ" description="CALDCO_16MHZ" id="CALDCO_16MHZ" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Calibration_Data_1.xml" offset=" 0x10F8" width="8"/>
+              <register acronym="CALBC1_16MHZ" description="CALBC1_16MHZ" id="CALBC1_16MHZ" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Calibration_Data_1.xml" offset=" 0x10F9" width="8"/>
+              <register acronym="CALDCO_12MHZ" description="CALDCO_12MHZ" id="CALDCO_12MHZ" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Calibration_Data_1.xml" offset=" 0x10FA" width="8"/>
+              <register acronym="CALBC1_12MHZ" description="CALBC1_12MHZ" id="CALBC1_12MHZ" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Calibration_Data_1.xml" offset=" 0x10FB" width="8"/>
+              <register acronym="CALDCO_8MHZ" description="CALDCO_8MHZ" id="CALDCO_8MHZ" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Calibration_Data_1.xml" offset=" 0x10FC" width="8"/>
+              <register acronym="CALBC1_8MHZ" description="CALBC1_8MHZ" id="CALBC1_8MHZ" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Calibration_Data_1.xml" offset=" 0x10FD" width="8"/>
+              <register acronym="CALDCO_1MHZ" description="CALDCO_1MHZ" id="CALDCO_1MHZ" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Calibration_Data_1.xml" offset=" 0x10FE" width="8"/>
+              <register acronym="CALBC1_1MHZ" description="CALBC1_1MHZ" id="CALBC1_1MHZ" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\Calibration_Data_1.xml" offset=" 0x10FF" width="8"/>
+            </module>
+            <module accessnumbytes="4" baseaddr="0x0000" description="" hidden="true" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\MSP430_NotVisible.xml" permissions="p" requestor="MSP430" size="00">
+              <register acronym="CLK" description="" id="CLK" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\MSP430_NotVisible.xml" width="32"/>
+              <register acronym="FP" description="" id="FP" instanceFile="C:\Archivos de programa\Texas Instruments\ccsv4\common\targetdb\modules\MSP430_NotVisible.xml" width="16"/>
+            </module>
+            <property Type="choicelist" Value="0" id="bypass"/>
+            <property Type="choicelist" Value="0" id="Slave Processor"/>
+          </cpu>
+        </device>
+      </platform>
+    </connection>
+  </configuration>
+
+</configurations>

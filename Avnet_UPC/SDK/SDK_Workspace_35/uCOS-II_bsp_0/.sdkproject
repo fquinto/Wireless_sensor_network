@@ -1,0 +1,5 @@
+#
+#Fri Jun 15 20:55:10 CEST 2012
+THIRPARTY=false
+PROCESSOR=microblaze_0
+MSS_FILE=system.mss

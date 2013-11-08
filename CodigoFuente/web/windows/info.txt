@@ -1,0 +1,21 @@
+ http://www.easyvitools.com/download/download.html
+ 
+ 
+PHP serial extension
+
+    This is a loadable extension for PHP running on Windows implementing serial port handling and communications. Once installed in PHP environment you can programm PHP applications to control serial device hosted on server from remote location; these devices can be anything from video switcher, cameras pan/tilt, ham radios, media players, home automation boxes, GSM modems/terminals (send/receive SMS), only your imagination and needs are the limits.
+
+    Platform : Win95/98/Me,NT,2000,XP.
+Tested with PHP 4.x & 5.x with Apache, IIS5 and EzCom2Web3 servers.
+For other versions or servers please write here: Contact form
+
+    Note: PHP released version 5.3.6 which is only available in VC9 build, Apache VC9 must be used and also the new compiled extension from Download section
+
+    Installation and functions reference
+There are available functions for opening, closing port, checking port state, reading / writing from / to port, setting control lines.
+For detailed description please read this page .
+
+    Test page
+See here how easy is to list SMS from a GSM phone / modem / terminal.
+
+    A good demonstration of capabilities is made in WS2300 PHP project, getting live data from WS2300 weather station in web pages.

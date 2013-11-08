@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/71/UPC_PFC/Trunk/MSP430
+END
+virtual_com_cmds.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/29/UPC_PFC/Trunk/MSP430/virtual_com_cmds.h
+END
+virtual_com_cmds_ED.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/29/UPC_PFC/Trunk/MSP430/virtual_com_cmds_ED.c
+END
+vlo_rand.asm
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/6/UPC_PFC/Trunk/MSP430/vlo_rand.asm
+END
+main_AP.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/29/UPC_PFC/Trunk/MSP430/main_AP.c
+END
+main_AP_commission.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/25/UPC_PFC/Trunk/MSP430/main_AP_commission.c
+END
+vlo_rand.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/6/UPC_PFC/Trunk/MSP430/vlo_rand.h
+END
+main_TOT.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/71/UPC_PFC/Trunk/MSP430/main_TOT.c
+END
+main_ED_full.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/25/UPC_PFC/Trunk/MSP430/main_ED_full.c
+END
+virtual_com_cmds_TOT.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/71/UPC_PFC/Trunk/MSP430/virtual_com_cmds_TOT.c
+END
+virtual_com_cmds_TOT.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/71/UPC_PFC/Trunk/MSP430/virtual_com_cmds_TOT.h
+END
+main_AP_full.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/25/UPC_PFC/Trunk/MSP430/main_AP_full.c
+END
+virtual_com_cmds.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/29/UPC_PFC/Trunk/MSP430/virtual_com_cmds.c
+END
+vlo_rand.s43
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/6/UPC_PFC/Trunk/MSP430/vlo_rand.s43
+END
+main_ED.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/29/UPC_PFC/Trunk/MSP430/main_ED.c
+END
+main_ED_commission.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/25/UPC_PFC/Trunk/MSP430/main_ED_commission.c
+END

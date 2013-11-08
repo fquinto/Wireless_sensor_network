@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/70/UPC_PFC/Trunk/web/comunicacion
+END
+setup_AP.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/65/UPC_PFC/Trunk/web/comunicacion/setup_AP.php
+END
+graph_page_dynamic.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/41/UPC_PFC/Trunk/web/comunicacion/graph_page_dynamic.php
+END
+graph_image.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/56/UPC_PFC/Trunk/web/comunicacion/graph_image.php
+END
+guarda.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/48/UPC_PFC/Trunk/web/comunicacion/guarda.php
+END
+enviar.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/41/UPC_PFC/Trunk/web/comunicacion/enviar.php
+END
+escriure_ajax.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/10/UPC_PFC/Trunk/web/comunicacion/escriure_ajax.php
+END
+python_ajax.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/70/UPC_PFC/Trunk/web/comunicacion/python_ajax.php
+END
+escriure_port.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/10/UPC_PFC/Trunk/web/comunicacion/escriure_port.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/10/UPC_PFC/Trunk/web/comunicacion/index.php
+END
+python_write.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/41/UPC_PFC/Trunk/web/comunicacion/python_write.php
+END
+led_mouse.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/50/UPC_PFC/Trunk/web/comunicacion/led_mouse.php
+END
+python_read.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/10/UPC_PFC/Trunk/web/comunicacion/python_read.php
+END
+graph_page.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/10/UPC_PFC/Trunk/web/comunicacion/graph_page.php
+END

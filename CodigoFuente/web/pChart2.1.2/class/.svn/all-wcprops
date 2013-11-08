@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/class
+END
+pImage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/class/pImage.class.php
+END
+pStock.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/class/pStock.class.php
+END
+pSurface.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/class/pSurface.class.php
+END
+pRadar.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/class/pRadar.class.php
+END
+pBarcode128.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/class/pBarcode128.class.php
+END
+pBubble.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/class/pBubble.class.php
+END
+pSplit.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/class/pSplit.class.php
+END
+pDraw.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/class/pDraw.class.php
+END
+pSpring.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/class/pSpring.class.php
+END
+pCache.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/class/pCache.class.php
+END
+pScatter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/class/pScatter.class.php
+END
+pData.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/class/pData.class.php
+END
+pBarcode39.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/class/pBarcode39.class.php
+END
+pIndicator.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/class/pIndicator.class.php
+END
+pPie.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/11/UPC_PFC/Trunk/web/pChart2.1.2/class/pPie.class.php
+END

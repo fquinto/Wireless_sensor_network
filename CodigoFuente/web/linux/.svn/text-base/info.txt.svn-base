@@ -1,0 +1,79 @@
+http://www.phpclasses.org/package/3679-PHP-Communicate-with-a-serial-port.html
+
+We need to create a rule file that has this line of code in it:
+
+ATTRS{idVendor}=="0451", ATTRS{idProduct}=="f432", MODE="0660", GROUP="plugdev"
+
+sudo nano /etc/udev/rules.d/46-TI_launchpad.rules
+ 
+sudo restart udev
+
+
+TAMBIÉN
+
+/*
+They need access to the /dev/ttyS0 serial port, which is owned by the dialout group.
+
+I can chmod the permissions of the /dev/ttyS0 serial port every time the box reboots, but that's not a good solution. Is there any way to change the default group of /dev/ttyS0 to "users"? If not, is there a way to add the "users" group to "dialout"?
+
+SOLVED I added
+Code: KERNEL=="ttyS0", MODE="0777"
+to /lib/udev/rules.d/10-local.rules and unplug & plug USB (or rebooted)
+*/
+
+
+
+
+
+
+++ PATCH for ttyUSBx on linux
+++ PATCH for READ on Windows
+
+
+
+
+
+
+
+Description
+
+Gives serial access to PHP under linux, OSX and Windows (write-only under Windows).
+
+This class can be used to communicate with a serial port under Linux, OSX or
+Windows.
+
+It takes the path (like “/dev/ttyS0″ for linux or “COM1″ for windows) of serial
+device and checks whether it is valid before opening a connection to it.
+
+Once the connection is opened, it can send data to the serial port, and read
+answers (reading is only implemented for linux).
+
+The class may also change connection parameters for the given serial
+device.
+
+Author Rémy Sanche
+http://code.google.com/p/php-serial/
+
+
+
+
+For read on Windows:
+
+using the following code in
+place of the 'not implemented' comment:
+
+------
+		elseif ($this->_os === "windows")
+		{
+        	$content = "";
+
+			if ($count > 0)
+			{
+				$content = fread($this->_dHandle, $count);
+			}
+
+			return $content;
+		}
+-----
+
+System: Vista 32bit with a Prolific USB to serial adapter cable.
