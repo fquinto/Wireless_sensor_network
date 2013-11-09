@@ -132,13 +132,20 @@ static  void  AppTaskFirst (void *p_arg)
                                 /* de codi corresponent a la funció m                           */
 
 	int	led = 0; // S3A400 - initialize LED selector
+	
+	setEDaddress();
+	OSTimeDlyHMSM(0,0,0,500); // Release the CPU (every 500ms)
+	setAPaddress();
+	OSTimeDlyHMSM(0,0,0,500); // Release the CPU (every 500ms)
+	setEDconfig();
+	OSTimeDlyHMSM(0,0,0,500); // Release the CPU (every 500ms)
 
     while (1) {
 		if (DEBUG)
 			xil_printf("DEBUG: INSIDE AppTaskFirst while\n\r");
 		//BSP_LEDToggle(led + 1); // S3A400 - Light selected LED, all others off
 		
-        OSTimeDlyHMSM(0,0,5,0); // Release the CPU (every 5 second)
+        OSTimeDlyHMSM(0,0,3,0); // Release the CPU (every 1 second)
 
 		//led = (led + 1) % LEDS;				// S3A400 - Select next LED
     }

@@ -127,7 +127,7 @@ void  BSP_LEDOff (INT8U led)
 
     led_status = XGpio_ReadReg(BSP_GPIO_ADDR,1);
 
-    OS_ENTER_CRITICAL();
+    //OS_ENTER_CRITICAL();
     switch (led) {
         case 0:
             led_status &= ~0x0000000F;
@@ -150,7 +150,7 @@ void  BSP_LEDOff (INT8U led)
             XGpio_WriteReg(BSP_GPIO_ADDR,1,led_status);
             break;
     }
-    OS_EXIT_CRITICAL();
+    //OS_EXIT_CRITICAL();
 }
 
 /*
@@ -967,7 +967,7 @@ void RecvHandlerMSP430(void *CallBackRef, unsigned int EventData)
 		
 		/* DEBUG: print buffer */
 		/*
-		for (Index = 0; Index < newBuffer; Index++) {
+		for (Index = 0; Index <= newBuffer; Index++) {
 			if ( (ReceiveBuffer[Index]!=0x0D) && (ReceiveBuffer[Index]!=0x0A) )
 			{
 				xil_printf("%c",ReceiveBuffer[Index]);
@@ -1121,7 +1121,7 @@ void RecvHandlerUSB(void *CallBackRef, unsigned int EventData)
 		}
 		
 		/* print buffer */
-		for (Index = 0; Index < newBuffer; Index++) {
+		for (Index = 0; Index <= newBuffer; Index++) {
 			if (ReceiveBuffer[Index]==0x0D)
 			{
 				//xil_printf(" (0x0D");
@@ -1178,7 +1178,7 @@ void enviaMSP430(u8 data2MSP430[])
 		/* send using MPS430 UART */
 		if (DEBUG)
 				xil_printf("DEBUG: enviaMSP430 start send\n\r");
-		for (Index = 0; Index < newBuffer; Index++) {
+		for (Index = 0; Index <= newBuffer; Index++) {
 			XUartLite_SendByte(XPAR_MSP430_UART_BASEADDR,data2MSP430[Index]);
 		}
 		
@@ -1376,7 +1376,7 @@ void procesa_comandos(void)
 			if (DEBUG)
 				xil_printf("DEBUG: procesa_comandos SendBuffer\n\r");
 
-			for (Index = 0; Index < newBuffer; Index++) {
+			for (Index = 0; Index <= newBuffer; Index++) {
 				ReceiveBuffer[Index] = SendBuffer[Index];
 			}
 			//enviaMSP430(SendBuffer);
@@ -1385,6 +1385,51 @@ void procesa_comandos(void)
 		/* clear semaphore */
 		sCommandSem = 0;
 	}
+}
+
+void setEDaddress(void)
+{
+	// set ED address
+	sSendUARTMSP430Sem=1;
+	ReceiveBuffer[0] = 0x4C; // L;
+	ReceiveBuffer[1] = 0x57; // W;
+	ReceiveBuffer[2] = 0x36; // 6;
+	ReceiveBuffer[3] = 0x30; // 0;
+	ReceiveBuffer[4] = 0x31; // 1;
+	ReceiveBuffer[5] = 0x32; // 2;
+	ReceiveBuffer[6] = 0x33; // 3;
+	ReceiveBuffer[7] = 0x0d; // \r;
+	enviaMSP430(ReceiveBuffer);
+}
+
+void setAPaddress(void)
+{
+	// set AP address
+	sSendUARTMSP430Sem=1;
+	ReceiveBuffer[0] = 0x4C; // L;
+	ReceiveBuffer[1] = 0x57; // W;
+	ReceiveBuffer[2] = 0x36; // 6;
+	ReceiveBuffer[3] = 0x31; // 1;
+	ReceiveBuffer[4] = 0x61; // a;
+	ReceiveBuffer[5] = 0x62; // b;
+	ReceiveBuffer[6] = 0x63; // c;
+	ReceiveBuffer[7] = 0x0d; // \r;
+	enviaMSP430(ReceiveBuffer);
+}
+
+void setEDconfig(void)
+{
+	// config as ED
+	sSendUARTMSP430Sem=1;
+	ReceiveBuffer[0] = 0x4C; // L;
+	ReceiveBuffer[1] = 0x57; // W;
+	ReceiveBuffer[2] = 0x36; // 6;
+	ReceiveBuffer[3] = 0x32; // 2;
+	ReceiveBuffer[4] = 0x30; // 0;
+	ReceiveBuffer[5] = 0x30; // 0;
+	ReceiveBuffer[6] = 0x30; // 0;
+	ReceiveBuffer[7] = 0x0d; // \r;
+	enviaMSP430(ReceiveBuffer);
 }
 
 /*

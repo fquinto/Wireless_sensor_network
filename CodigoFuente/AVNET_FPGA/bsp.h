@@ -51,7 +51,7 @@
  * The following constant controls the length of the buffers to be sent
  * and received with the UartLite device.
  */
-#define TEST_BUFFER_SIZE        9
+#define TEST_BUFFER_SIZE        8
 
 /*
  * The following constant defines the address of the IIC
@@ -116,7 +116,9 @@ void RecvHandlerUSB(void *CallBackRef, unsigned int EventData);
 // MSP430 and USB UART END
 
 void procesa_comandos(void);
-
+void setEDaddress(void);
+void setAPaddress(void);
+void setEDconfig(void);
 /*
 *********************************************************************************************************
 *                                             Variable Definitions

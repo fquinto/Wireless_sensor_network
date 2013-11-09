@@ -52,6 +52,24 @@ function check_port(query)
 </script>
   </head>
   <body>
+    <style>
+    /*
+    #svg {
+        width: 500px;
+
+    }
+    */
+    .row-fluid .span6 {
+      width: 40.93617%;
+    }
+    svg {
+      position: relative;
+      width: 541px;
+      height: 376px;
+      left: 4px;
+      top: 61px;
+    }
+    </style>
     <?php include("menu.php"); ?>
     <div class="container">
      <div class="row-fluid">
@@ -109,6 +127,7 @@ if ( isset($_SESSION['OS']) )
           </div>
           </div> <!-- /span6 -->
            <div class="span6">
+            <div id="svg">
 <?php
 // get contents of a image file (SVG) into a string
 $filename = "imagen/portada_web.svg";
@@ -121,6 +140,7 @@ $contents = fread($handle, filesize($filename));
 fclose($handle);
 echo $contents;
 ?>
+            </div> <!-- /svg -->
            </div> <!-- /span6 -->
         </div> <!-- /row -->
       </div> <!-- /hero-unit -->

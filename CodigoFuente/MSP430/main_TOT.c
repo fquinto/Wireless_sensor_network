@@ -371,7 +371,7 @@ void main (void)
 								UART_write((char *)headResponseData, 1 );
 								serial_log( "R1200" );
 								UART_write((char *)chardata, 1 );
-								serial_log( "\r\n" );
+								serial_log( "\r" );
 								break;
 							case 0x46: // mensaje F (6): AP->FG => emisor RADIO
 								toRadio( "FR1200x\r" );
@@ -386,7 +386,7 @@ void main (void)
 								UART_write((char *)headResponseData, 1 );
 								serial_log( "R1200" );
 								UART_write((char *)chardata, 1 );
-								serial_log( "\r\n" );
+								serial_log( "\r" );
 								break;
 							case 0x47: // mensaje G (7): ED->PC => emisor RADIO
 								toRadio( "GR1200x\r" );
@@ -754,12 +754,12 @@ static void fromRadio( int byte )
 				case 0x47: // mensaje G (7): ED->PC => transporte RADIO2UART
 					//serial_log( "ED->PC\r\n" ); // debug
 					UART_write( dataFromRADIO, SIZE_MENSAJE );
-					serial_log( "\r\n" );
+					serial_log( "\r" );
 					break;
 				case 0x4A: // mensaje J (10): FG->PC => transporte RADIO2UART
 					//serial_log( "FG->PC\r\n" ); // debug
 					UART_write( dataFromRADIO, SIZE_MENSAJE );
-					serial_log( "\r\n" );
+					serial_log( "\r" );
 					break;
 				case 0x4B: // mensaje K (11): FG->AP => receptor RADIO
 					//serial_log( "FG->AP\r\n" ); // debug
@@ -781,12 +781,12 @@ static void fromRadio( int byte )
 				case 0x43: // mensaje C (3): PC->FG => transporte RADIO2UART
 					//serial_log( "PC->FG\r\n" ); // debug
 					UART_write( dataFromRADIO, SIZE_MENSAJE );
-					serial_log( "\r\n" );
+					serial_log( "\r" );
 					break;
 				case 0x46: // mensaje F (6): AP->FG => transporte RADIO2UART
 					//serial_log( "AP->FG\r\n" ); // debug
 					UART_write( dataFromRADIO, SIZE_MENSAJE );
-					serial_log( "\r\n" );
+					serial_log( "\r" );
 					break;
 				default: ;
 			}
